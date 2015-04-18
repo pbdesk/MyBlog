@@ -12,6 +12,6 @@ twitter_username: PBDesk
 github_username:  PBDesk
 
 permalink: /:year/:month/:title
-
+comments: true
 # Build settings
 markdown: kramdown

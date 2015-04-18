@@ -21,69 +21,26 @@ layout: default
         <!-- Entry meta information. Calender, User, Category, Tags. Font awesome icons used -->
         <p class="meta"><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-tags"></i>&nbsp; <a href="#">Iam</a>, <a href="#">Bulum</a></p>
         <!-- Thumbnail here -->
-        <p class="thumbnail"><img src="img/photos/s2.jpg" alt="" /></p>
+        <p class="thumbnail"><img src="{{page.banner}}" alt="" /></p>
         <!-- Entry para -->
           {{ content }}
       </div>
-      <div class="comments">
-        <div class="comment-list">
-          <h3>5 Comments</h3>
-          <div class="comment-entry">
-            <div class="c-author"><a href="#">Ashok</a></div>
-            <div class="c-meta">Commented on <i class="fa fa-calendar"></i>26-6-2012</div>
-            <div class="comment">Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Aliquam ut feugiat ante. Curabitur lacinia nulla vel tellus elementum non mollis justo aliquam. Maecenas turpis urna, eleifend et venenatis eget, ultricies quis urna. Aliquam fringilla mauris lectus, in laoreet justo. Aliquam ut pharetra erat.</div>
-          </div>
-          <div class="comment-entry c-reply">
-            <div class="c-author"><a href="#">Ashok</a></div>
-            <div class="c-meta">Commented on <i class="fa fa-calendar"></i>26-6-2012</div>
-            <div class="comment">Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Aliquam ut feugiat ante. Curabitur lacinia nulla vel tellus elementum non mollis justo aliquam. Maecenas turpis urna, eleifend et venenatis eget, ultricies quis urna. Aliquam fringilla mauris lectus, in laoreet justo. Aliquam ut pharetra erat.</div>
-          </div>
-          <div class="comment-entry">
-            <div class="c-author"><a href="#">Ashok</a></div>
-            <div class="c-meta">Commented on <i class="fa fa-calendar"></i>26-6-2012</div>
-            <div class="comment">Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Aliquam ut feugiat ante. Curabitur lacinia nulla vel tellus elementum non mollis justo aliquam. Maecenas turpis urna, eleifend et venenatis eget, ultricies quis urna. Aliquam fringilla mauris lectus, in laoreet justo. Aliquam ut pharetra erat.</div>
-          </div>
-        </div>
-        <div class="make-comment">
-          <h3>Leave a Reply</h3>
-          <hr />
-          <div class="c-form">
-            <form class="form-horizontal">
-              <fieldset>
-                <div class="form-group">
-                  <label class="control-label col-md-2" for="name">Name</label>
-                  <div class="col-md-7">
-                    <input type="text" class="form-control" id="name">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-md-2" for="email">Email</label>
-                  <div class="col-md-7">
-                    <input type="text" class="form-control" id="email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-md-2" for="website">Website</label>
-                  <div class="col-md-7">
-                    <input type="text" class="form-control" id="website">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-md-2" for="comment">Comment</label>
-                  <div class="col-md-7">
-                    <textarea class="form-control" id="comment" rows="5"></textarea>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-md-offset-2 col-md-7">
-                    <button type="submit" class="btn btn-default">Make Comment</button>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </div>
+        {% if site.comments %}
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'blogpbdeskcom';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        {% endif %}
+
       <!-- Navigation links -->
       <ul class="pager">
         <li class="previous">
