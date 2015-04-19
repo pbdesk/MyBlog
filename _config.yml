@@ -19,4 +19,5 @@ markdown: kramdown
 category_archive:
   path: category
 
-
+monthly_archive:
+  path: archive
