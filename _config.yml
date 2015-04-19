@@ -15,3 +15,8 @@ permalink: /:year/:month/:title
 comments: true
 # Build settings
 markdown: kramdown
+
+category_archive:
+  path: category
+
+
