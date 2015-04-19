@@ -9,7 +9,7 @@ layout: default
             <div class="entry">
                 <div class="padd">
                     <!-- Entry title -->
-                    <h2><a href="#">Etiam adipiscing posuere justo, nec iaculis</a></h2>
+                    <h2><a href="#">Recent Posts</a></h2>
                     <!-- Flex Slider -->
                     <div class="flexslider">
                         <!-- Slider. Replace below links with your image links. Use image size of 650x380. -->
@@ -17,9 +17,9 @@ layout: default
                             {% for post in site.posts limit:5 %}
                             <li>
                                 <!-- Link to your picture -->
-                                <img src="img/photos/s2.jpg" alt=""/>
+                                <img src="{{post.banner}}" alt=""/>
                                 <!-- Caption. It not needed, simply delete the below line. -->
-                                <p class="flex-caption">{{ post.title }}</p>
+                                <p class="flex-caption"><a href="{{post.url}}">{{ post.title }}</a></p>
                             </li>
                             {% endfor %}
                         </ul>
@@ -215,3 +215,4 @@ layout: default
   <p class="rss-subscribe">subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></p>
 
 </div>
+

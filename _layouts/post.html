@@ -10,7 +10,7 @@ layout: default
       <ul class="breadcrumb">
 
           {% for cat in page.categories %}
-          <li><a href="/{{cat}}">{{ cat }}</a></li>
+          <li><a href="/category/{{cat}}">{{ cat }}</a></li>
           {% endfor %}
 
       </ul>
@@ -22,7 +22,7 @@ layout: default
         <p class="meta">
             <i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;&nbsp;&nbsp;
             <i class="fa fa-tags"></i>&nbsp;
-                {% for tag in page.tags %}<span><a href="#">{{tag}}</a></span>{% endfor %}
+                {% for tag in page.tags %}<span><a href="/tag/{{tag}}">{{tag}}</a></span>{% endfor %}
         </p>
         <!-- Thumbnail here -->
         <p class="thumbnail"><img src="{{page.banner}}" alt="" /></p>
