@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pinal Bhatt&#39;s Blog</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://blog.pbdesk.io/</link>
+    <atom:link href="http://blog.pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 19 Apr 2015 14:02:52 -0400</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2015 14:02:52 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:21:46 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2015/04/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2015/04/welcome-to-jekyll</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>featured</category>
+        
+      </item>
+    
+      <item>
+        <title>ASP.Net vNext MVC 6 Videos</title>
+        <description>&lt;p style=&quot;text-align: justify;&quot;&gt;Recently, in Summer 2014, Microsoft announced the preview availability of its new &lt;a href=&quot;http://www.asp.net/vnext&quot; target=&quot;_blank&quot;&gt;ASP.Net vNext&lt;/a&gt;, that is MVC 6.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;ASP.NET vNext is a lean and composable framework for building web and cloud applications. MVC, Web API, and Web Pages are merged into one framework, called MVC 6&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;My previous post  regarding what&#39;s new in ASP.Net MVC 6 provides more details about features and acrchituctural changes in  MVC 6.&lt;/p&gt;
+&lt;p&gt;[stextbox id=&quot;black&quot;]  &lt;a title=&quot;ASP.Net MVC 6 – Whats New?&quot; href=&quot;http://blog.pbdesk.com/2014/asp-net-mvc-6-whats-new/&quot; target=&quot;_blank&quot;&gt;ASP.Net MVC 6 – Whats New?&lt;/a&gt;[/stextbox]&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Here are some official videos from Channel 9! giving sneak peek to ASP.Net MVC 6.&lt;/p&gt;
+&lt;h3&gt;ASP.NET Today and Tomorrow&lt;/h3&gt;
+&lt;p&gt;Keynote at &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt; by &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/Scott-Hunter&quot; target=&quot;_blank&quot;&gt;Scott Hunter&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt; It&#39;s been an amazing decade for ASP.NET. Today in 2014, most all of ASP.NET is open source, developed in the open, and accepting community contributions. One ASP.NET and VS 2013 added some amazing new tooling enhancements for HTML5, CSS3 and JavaScript. VS2013.3 is coming soon with even more innovations as we march towards ASP.NET vNext. Join Scott Hunter as he shows you how it works together. What&#39;s available on ASP.NET today, and where is ASP.NET headed tomorrow, and what do you need to know to best support the code you&#39;ve written and the code you will write. We&#39;ll also talk about the rise of the cloud and how it changes the way we write large systems. All this, plus a lot of open source, and deploying to Azure.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/State-of-ASP-NET/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;ASP.NET MVC 6 (now with integrated Web API!)&lt;/h3&gt;
+&lt;p&gt;By  &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/daniel-roth&quot; target=&quot;_blank&quot;&gt;Daniel Roth&lt;/a&gt; | &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;ASP.NET MVC and ASP.NET Web API in ASP.NET vNext are becoming one singular framework: ASP.NET MVC 6. Join Daniel Roth as he shows how to create great ASP.NET web apps that serve both pages and services. First we&#39;ll see how to build OData v4 compliant services using ASP.NET Web API 2.2 and the new attribute routing features available in ASP.NET MVC 5.2. Then we&#39;ll take a look at how ASP.NET MVC and Web API are being combined into a single framework, ASP.NET MVC 6, for handling all of your Web UI and services. We&#39;ll learn how to use ASP.NET MVC and Web APIs in ASP.NET vNext to support connected applications for browsers, Windows Phone, Windows Store and more!&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/MVC-6/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;ASP.NET Identity&lt;/h3&gt;
+&lt;p&gt;By &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/pranav-rastogi&quot; target=&quot;_blank&quot;&gt;Pranav Rastogi&lt;/a&gt; | &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt; ASP.NET Identity is a totally rewritten framework that brings the ASP.NET membership system into the modern era. ASP.NET Identity makes it easier to integrate different authentication systems such as local username, password as well as social logins such as Facebook, Twitter etc. It also gives you greater control over persisting data to your backend technology of choice. ASP.NET Identity is a game changer by bringing in more modern authentication systems such as Two-Factor Authentication. You can use ASP.NET Identity to secure Web Apps as well as Web APIs.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-Identity-Security/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;[stextbox id=&quot;black&quot;]More videos about &lt;a href=&quot;http://www.dotnetconf.net/&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt; can be found on &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;Channel 9&lt;/a&gt;.[/stextbox]&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Nov 2014 11:16:08 -0500</pubDate>
+        <link>http://blog.pbdesk.io/2014/11/asp-net-vnext-mvc-6-videos</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/11/asp-net-vnext-mvc-6-videos</guid>
+        
+        <category>ASP.Net</category>
+        
+        <category>MVC</category>
+        
+        <category>MVC6</category>
+        
+        <category>WebAPI</category>
+        
+        
+        <category>asp.net</category>
+        
+        <category>tutorials</category>
+        
+      </item>
+    
+      <item>
+        <title>ASP.Net MVC 6 - Whats New?</title>
+        <description>&lt;p style=&quot;text-align: justify;&quot;&gt;Asp.Net vNext (http://asp.net/vNext) is the official place where we learn about next generation of Microsoft&#39;s ASP.Net framework. As of 2014 vNext is MVC 6! Yes MVC 6 is the new cool major overhaul over previous ASP.Net. Recently, Microsoft announced the preview availability of this product.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;ASP.NET vNext is a lean and composable framework for building web and cloud applications. ASP.NET vNext is fully open source and available on &lt;a href=&quot;http://github.com/aspnet/home&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;MVC 6  has been redesigned from the ground up. The goal is to create a lean and composable .NET stack for building modern web/cloud-based apps. Microsoft has chosen a new direction, where the Web API, MVC and Web Pages framework are merged into one framework. This allows to remove a lot of the overlap between the three frameworks. And result of this change means that MVC can be self-hosting just like Web API.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Yes, System.Web is very heavy &amp;amp; quite expensive! A typical HttpContext object graph would consume about 30K of memory per request. With MVC 6&#39;s new design, its independent of System.Web now and the pre-request overhead drops to roughly 2K.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt; [stextbox id=&quot;black&quot;]MVC, Web API, and Web Pages are merged into one framework, called MVC 6.[/stextbox]&lt;/p&gt;
+&lt;p&gt;Here are the highlights:&lt;/p&gt;
+&lt;h3&gt;Rebuilt from the Ground Up&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MVC, Web API, and Web Pages are merged into one framework, called MVC 6. The new framework uses a common set of abstractions for routing, action selection, filters, model binding, and so on.&lt;/li&gt;
+&lt;li&gt;Dependency injection is built into the framework. Use your preferred IoC container to register dependencies.&lt;/li&gt;
+&lt;li&gt;vNext is host agnostic. You can host your app in IIS, or self-host in a custom process. (Web API 2 and SignalR 2 already support self-hosting; vNext brings this same capability to MVC.)&lt;/li&gt;
+&lt;li&gt;vNext is open source and cross platform.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Leaner, Faster&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MVC 6 has no dependency on System.Web.dll. The result is a leaner framework, with faster startup time and lower memory consumption.&lt;/li&gt;
+&lt;li&gt;vNext apps can use a cloud-optimized runtime and subset of the .NET Framework. This subset of the framework is about 11 megabytes in size compared to 200 megabytes for the full framework, and is composed of a collection of NuGet packages.&lt;/li&gt;
+&lt;li&gt;Because the cloud-optimized framework is a collection of NuGet packages, your app can include only the packages you actually need. No unnecessary memory, disk space, loading time, etc.&lt;/li&gt;
+&lt;li&gt;Microsoft can deliver updates to the framework on a faster cadence, because each part can be updated independently.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;True Side-by-Side Deployment&lt;/h3&gt;
+&lt;p&gt;The reduced footprint of the cloud-optimized runtime makes it practical to deploy the framework with your app.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can run apps side-by-side with different versions of the framework on the same server.&lt;/li&gt;
+&lt;li&gt;Your apps are insulated from framework changes on the server.&lt;/li&gt;
+&lt;li&gt;You can make framework updates for each app on its own schedule.&lt;/li&gt;
+&lt;li&gt;No errors when you deploy to production resulting from a mismatch between the framework patch level on the development machine and the production server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;New Development Experience&lt;/h3&gt;
+&lt;p&gt;vNext uses the &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/roslyn.aspx&quot; target=&quot;_blank&quot;&gt;Roslyn compiler&lt;/a&gt; to compile code dynamically.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can edit a code file, refresh the browser, and see the changes without rebuilding the project.&lt;/li&gt;
+&lt;li&gt;Besides streamlining the development process, dynamic code compilation enables development scenarios that were not possible before, such as editing code on the server using &lt;a href=&quot;http://azure.microsoft.com/en-us/documentation/videos/building-web-sites-with-visual-studio-online-monaco/&quot; target=&quot;_blank&quot;&gt;Visual Studio Online (&quot;Monaco&quot;)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You can choose your own editors and tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;&lt;a class=&quot;icon icon-curricula&quot; href=&quot;http://www.asp.net/vnext/overview/aspnet-vnext/getting-started-with-aspnet-vnext-and-visual-studio&quot;&gt;Getting Started with ASP.NET vNext and Visual Studio &quot;14&quot;&lt;/a&gt;&lt;/h3&gt;
+&lt;address class=&quot;details&quot;&gt;By Tom Dykstra and Mike Wasson&lt;span class=&quot;separator&quot;&gt;|&lt;/span&gt;&lt;time datetime=&quot;2014-10-06&quot;&gt;October 6, 2014&lt;/time&gt;&lt;/address&gt;
+&lt;p&gt;An introduction to Visual Studio features for developing ASP.NET vNext applications. Walks you through creating a vNext project and deploying it to Azure.&lt;/li&gt;
+&lt;li&gt;
+&lt;h3&gt;&lt;a class=&quot;icon icon-link&quot; href=&quot;http://blogs.msdn.com/b/webdev/archive/2014/06/03/asp-net-vnext-in-visual-studio-14-ctp.aspx&quot;&gt;ASP.NET vNext in Visual Studio “14” CTP&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Blog post with a comprehensive introduction to ASP.NET vNext. Includes an overview of features, a walkthrough showing how to use vNext in Visual Studio and from the command line, frequently asked questions, and links to additional resources.&lt;/li&gt;
+&lt;li&gt;
+&lt;h3&gt;&lt;a class=&quot;icon icon-whitepaper&quot; href=&quot;http://www.asp.net/vnext/overview/aspnet-vnext/overview&quot;&gt;Getting Started with ASP.NET MVC 6&lt;/a&gt;&lt;/h3&gt;
+&lt;address class=&quot;details&quot;&gt;By Mike Wasson&lt;span class=&quot;separator&quot;&gt;|&lt;/span&gt;&lt;time datetime=&quot;2014-10-06&quot;&gt;October 6, 2014&lt;/time&gt;&lt;/address&gt;
+&lt;p&gt;An overview of the new ASP.NET MVC 6 framework, which unifies MVC, Web API, and Web Pages.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 05 Nov 2014 10:35:50 -0500</pubDate>
+        <link>http://blog.pbdesk.io/2014/11/asp-net-mvc-6-whats-new</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/11/asp-net-mvc-6-whats-new</guid>
+        
+        <category>ASP.Net</category>
+        
+        <category>Microsoft</category>
+        
+        <category>MVC</category>
+        
+        <category>MVC6</category>
+        
+        <category>WebAPI</category>
+        
+        
+        <category>asp.net</category>
+        
+        <category>featured</category>
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>C# Code Snippet to Send Email</title>
+        <description>&lt;p&gt;Microsoft.Net framework provides &lt;a title=&quot;System.Net.Mail Namespace&quot; href=&quot;http://msdn.microsoft.com/en-us/library/System.Net.Mail.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;System.Net.Mail&lt;/strong&gt; Namespace&lt;/a&gt; for handling SMTP and email related utilities. &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.net.mail.smtpclient.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;SmtpClient&lt;/strong&gt; class&lt;/a&gt; allows applications to send e-mail by using the Simple Mail Transfer Protocol (SMTP) where as &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;MailMessage&lt;/strong&gt; class&lt;/a&gt; represents an e-mail message that can be sent using the SmtpClient class.&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Please note that &lt;strong&gt;System.Web.Mail&lt;/strong&gt; namespace should not be used any more as most of the functionalist in this namespace are now &lt;strong&gt;obsolete&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Here are few code snippets to send email in C# using SMTP:&lt;/p&gt;
+&lt;pre class=&quot;theme:github toolbar:1 lang:c# decode:true&quot; title=&quot;C# Code Snippet to Send Email&quot;&gt;//using System.Net;
+//using System.Net.Mail;
+ 
+MailMessage mail = new MailMessage();
+SmtpClient SmtpServer = new SmtpClient(&quot;&quot;);
+ 
+mail.From = new MailAddress(&quot;me@mydomain.com&quot;);
+mail.To.Add(&quot;u@urdomain.com&quot;);
+mail.Subject = &quot;Subject&quot;;
+mail.Body = &quot;body&quot;;
+mail.IsBodyHtml = false;
+ 
+SmtpServer.Port = 25; // Or whatever port your smpt server is supporting
+SmtpServer.Credentials = new System.Net.NetworkCredential(&quot;me&quot;, &quot;password&quot;);
+SmtpServer.EnableSsl = true;
+ 
+SmtpServer.Send(mail);
+&lt;/pre&gt;
+&lt;p&gt;Gist to Send email via Gmail&lt;br /&gt;
+[gist id = &quot;48f625bbffcdf8849f4a&quot; file = &quot;SendEmailViaGmail&quot; ]&lt;/p&gt;
+&lt;p&gt;And if you want to attach a file, here is code to send email with attachment:&lt;br /&gt;
+[gist id = &quot;48f625bbffcdf8849f4a&quot; file = &quot;SendEmailWithAttachment&quot; ]&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Sep 2014 10:46:58 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2014/09/c-code-snippet-send-email</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/09/c-code-snippet-send-email</guid>
+        
+        <category>C#</category>
+        
+        <category>CodeSnippet</category>
+        
+        
+        <category>.net</category>
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>Unit Testing Node.JS With Mocha</title>
+        <description>&lt;p&gt;My google research for &quot;node js mocha tutorial&quot;&lt;/p&gt;
+&lt;h2&gt;1. &lt;a href=&quot;http://visionmedia.github.io/mocha/&quot; target=&quot;_blank&quot;&gt;Official web site for Mocha&lt;/a&gt;&lt;/h2&gt;
+&lt;address&gt;&lt;strong&gt;simple, flexible, fun&lt;/strong&gt;. &lt;span style=&quot;color: #2c2c2c;&quot;&gt;Mocha is a feature-rich JavaScript test framework running on &lt;/span&gt;&lt;a style=&quot;font-weight: bold; color: #8a6343;&quot; href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot;&gt;node.js&lt;/a&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt; and the browser, making&lt;/span&gt;&lt;/span&gt;&lt;img class=&quot;alignright wp-image-16058&quot; src=&quot;assets/Mocha-thumb.png&quot; alt=&quot;Mocha Thumbnail&quot; width=&quot;80&quot; height=&quot;55&quot; /&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt;asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases. Hosted on &lt;/span&gt;&lt;a style=&quot;font-weight: bold; color: #8a6343;&quot; href=&quot;https://github.com/visionmedia/mocha&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;/address&gt;
+&lt;h2&gt;2. &lt;span style=&quot;color: #000000;&quot;&gt;&lt;a title=&quot;Testing in Node.js&quot; href=&quot;http://code.tutsplus.com/tutorials/testing-in-nodejs--net-35018&quot; target=&quot;_blank&quot;&gt;Testing in Node.js - Tuts+ Code Tutorial&lt;/a&gt; &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;By: &lt;a class=&quot;content-header__author-link&quot; style=&quot;color: #136fd2;&quot; href=&quot;http://tutsplus.com/authors/gabriel-manricks&quot; target=&quot;_blank&quot; rel=&quot;author&quot;&gt;Gabriel Manricks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;A test driven development TDD cycle simplifies the thought process of writing code, makes it easier, and quicker in the long run. But just writing tests is not enough by itself, knowing the kinds of tests to write and how to structure code to conform to this pattern is what it&amp;amp;#39;s all about. This article takes a look at building a small app in Node.js following a TDD pattern.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h2&gt;3.  &lt;a href=&quot;http://webapplog.com/test-driven-development-in-node-js-with-mocha/&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Test-Driven Development in Node.js With Mocha&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Don’t waste time writing tests for throwaway scripts, but please adapt the habit of Test-Driven Development for the main code base. With a little time spent in the beginning, you and your team will save time later and have confidence when rolling out new releases. Test Driven Development is a really really really good thing.&lt;/p&gt;
+&lt;h2&gt;4. &lt;a href=&quot;https://github.com/nelsonic/learn-mocha&quot; target=&quot;_blank&quot;&gt;Learn Mocha&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;By: &lt;a title=&quot;Nelson&quot; href=&quot;https://github.com/nelsonic&quot; target=&quot;_blank&quot;&gt;Nelson&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Quick Guide&lt;/em&gt; to &lt;strong&gt;mocha.js&lt;/strong&gt; Test Driven Development (TDD) / Behaviour Driven Development (BDD) in &lt;strong&gt;node.js&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Aug 2014 21:53:52 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2014/08/unit-testing-node-js-with-mocha</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/08/unit-testing-node-js-with-mocha</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>NodeJS</category>
+        
+        <category>Programming</category>
+        
+        
+        <category>javascript</category>
+        
+        <category>node.js</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting started: Website in Node.JS With Express, Jade &amp; Stylus using Node.js Tools for Visual Studio</title>
+        <description>&lt;p&gt;Since last few days I am trying my hands with NodeJS. I came across very nice article &quot;&lt;a href=&quot;http://clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus&quot; target=&quot;_blank&quot;&gt;A SIMPLE WEBSITE IN NODE.JS WITH EXPRESS, JADE AND STYLUS&lt;/a&gt;&quot; by Ben Gourley. Really simple and easy startup.&lt;/p&gt;
+&lt;p&gt;https://twitter.com/pbdesk/status/496729892328071170&lt;/p&gt;
+&lt;p&gt;Taking this article as base, I implemented same using #NTVS (Node.js Tools for Visual Studio) using #VS2013. &lt;span style=&quot;color: #333333;&quot;&gt;Modified code to use latest versions of dependencies for express, jade &amp;amp; stylus. Like with Express 4.0, all middleware (except static) have been removed and will need to be called separately, &#39;logger&#39; needs to be exchanged with &#39;morgan&#39;. Here is nice post on &lt;a href=&quot;http://scotch.io/bar-talk/expressjs-4-0-new-features-and-upgrading-from-3-0&quot; target=&quot;_blank&quot;&gt;ExpressJS 4.0: New Features and Upgrading from 3.0&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Source Code&lt;/h3&gt;
+&lt;p&gt;[stextbox id=&quot;black&quot;]Entire running source code with Visual Studio solution &amp;amp; project files can found at &lt;a title=&quot;NodeJS-Simple-WebSite Branch:clock&quot; href=&quot;https://github.com/pbdesk/NodeJS-Simple-WebSite/tree/clock&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;[/stextbox]&lt;/p&gt;
+&lt;p&gt;https://github.com/pbdesk/NodeJS-Simple-WebSite/tree/clock&lt;/p&gt;
+&lt;p&gt;Here are code snippets for main files, all other files in public and views folder remain same as mention in above blog post.&lt;/p&gt;
+&lt;p&gt;[gist id = &quot;ada0c3df7de1fdf6c46b&quot; file = &quot;package.json&quot; ]&lt;br /&gt;
+[gist id = &quot;ada0c3df7de1fdf6c46b&quot; file = &quot;server.js&quot; ]&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Aug 2014 10:00:37 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2014/08/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/08/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</guid>
+        
+        <category>Express</category>
+        
+        <category>Jade</category>
+        
+        <category>NodeJS</category>
+        
+        <category>NTVS</category>
+        
+        <category>VS2013</category>
+        
+        
+        <category>featured</category>
+        
+        <category>javascript</category>
+        
+        <category>node.js</category>
+        
+      </item>
+    
+      <item>
+        <title>Adieu PBDesk.com V2</title>
+        <description>&lt;p style=&quot;text-align: justify;&quot;&gt;Long back posted that i want to &lt;a title=&quot;ReWriting PBDesk.com&quot; href=&quot;http://blogs.pbdesk.com/rewriting-pbdesk-com/&quot; target=&quot;_blank&quot;&gt;rewrite my site &lt;/a&gt;with all new ASP.Net MVC, WebAPI, Umbaco7, AngularJS &amp;amp; Twitter Bootstrap.  It took lot of time for me to rewrite my site but finally New PBDesk.com V3 is almost ready now so its time to say good bye to existing site what I call V2.  But i have archived this old site at http://2013.PBDesk.com.[stextbox id=&quot;info&quot;]Old site archived at &lt;a title=&quot;PBDesk.com V2&quot; href=&quot;http://2013.PBDesk.com&quot; target=&quot;_blank&quot;&gt;http://2013.PBDesk.com&lt;/a&gt;.[/stextbox]&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Here are glimpse of old site.&lt;/p&gt;
+&lt;p&gt;[gallery link=&quot;none&quot; type=&quot;slideshow&quot; ids=&quot;16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022&quot;]&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;[gallery link=&quot;file&quot; ids=&quot;16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022&quot;]&lt;/p&gt;
+&lt;p&gt;[stextbox id=&quot;info&quot;]New site now live at &lt;a title=&quot;PBDesk.com - from the desk of Pinal Bhatt&quot; href=&quot;http://www.PBDesk.com&quot; target=&quot;_blank&quot;&gt;PBDesk.com&lt;/a&gt;[/stextbox]&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Aug 2014 15:07:20 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2014/08/adieu-pbdesk-com-v2</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/08/adieu-pbdesk-com-v2</guid>
+        
+        <category>PBDesk</category>
+        
+        
+        <category>featured</category>
+        
+        <category>myprojects</category>
+        
+      </item>
+    
+      <item>
+        <title>Node.JS: Tutorials &amp; Resources</title>
+        <description>&lt;p&gt;Node.JS is getting very popular now a days and i have also started enjoying this new breeze.&lt;/p&gt;
+&lt;p&gt;Here are my recent tweets regarding NodeJS.&lt;/p&gt;
+&lt;p&gt;[fetch_tweets id=&quot;16051&quot;]&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Jul 2014 08:11:00 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2014/07/nodejs-news-update</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/07/nodejs-news-update</guid>
+        
+        
+        <category>featured</category>
+        
+        <category>node.js</category>
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>ReWriting PBDesk.com</title>
+        <description>&lt;p&gt;[caption id=&quot;attachment_242&quot; align=&quot;alignright&quot; width=&quot;300&quot;]&lt;a href=&quot;http://2013.PBDesk.com&quot;&gt;&lt;img class=&quot;wp-image-242 size-medium&quot; src=&quot;assets/2013-300x235.png&quot; alt=&quot;2013.PBDesk.com&quot; width=&quot;300&quot; height=&quot;235&quot; /&gt;&lt;/a&gt; 2013.PBDesk.com[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_243&quot; align=&quot;alignleft&quot; width=&quot;300&quot;]&lt;a href=&quot;http://www.PBDesk.com&quot;&gt;&lt;img class=&quot;wp-image-243 size-medium&quot; src=&quot;assets/2014-300x237.png&quot; alt=&quot;2014.PBDesk.com&quot; width=&quot;300&quot; height=&quot;237&quot; /&gt;&lt;/a&gt; 2014.PBDesk.com[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;a title=&quot;PBDesk.com&quot; href=&quot;http://www.PBDesk.com&quot; target=&quot;_blank&quot;&gt;PBDesk.com&lt;/a&gt; - My Site, My Desk! Its now more then an year with same look, not sure of others ;) but i am bored of same looks. Thinking of re-writing the site!!!!&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;More then for looks, I&amp;nbsp;want to re-write so that I&amp;nbsp;can use latest in the market - ASP.Net MVC, WebAPI, Umbaco7, Twitter Bootstrap and of course AngularJS.&amp;nbsp;Yes the day I have started learning &amp;amp; using AngularJS - I am falling in love with it. Its &lt;a title=&quot;AngularJS – Really SuperHeroic JavaScipt&quot; href=&quot;/angularjs-really-superheroic-javascipt/&quot; target=&quot;_blank&quot;&gt;really SuperHeroic Javascript&lt;/a&gt;. And this is the main force driving me to re-write my site. In a way, i want to master &lt;a title=&quot;AngularJS.org&quot; href=&quot;https://angularjs.org/&quot; target=&quot;_blank&quot;&gt;AngularJS&lt;/a&gt;. Somebody rightly mentioned AngularJS as second best thing to happen to Javascript after jQuery.&lt;/p&gt;
+&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+&lt;p&gt;https://twitter.com/pbdesk/status/469149468420755456&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Also how can I forget &lt;a title=&quot;Umbraco.Com&quot; href=&quot;http://umbraco.com/&quot; target=&quot;_blank&quot;&gt;Umbraco &lt;/a&gt;- &lt;strong&gt;My Fav!&lt;/strong&gt; &lt;a title=&quot;ASP.Net Open Source CMS&quot; href=&quot;/asp-net-open-source-cms/&quot; target=&quot;_blank&quot;&gt;ASP.Net Open Source CMS.&lt;/a&gt;&amp;nbsp;And now we have Umbraco 7 - with its backend re-written in AngularJS. Really good work by Umbraco team and great example on usage of AngularJS.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Now that thought has born in my mind it won&#39;t stop till I see it live. Wishing my self best luck for new venture. Lots of work to do - first of all find good twitter bootstrap template for responsive design. And plan out over all architecture for my new dream.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;
+</description>
+        <pubDate>Tue, 24 Dec 2013 04:12:02 -0500</pubDate>
+        <link>http://blog.pbdesk.io/2013/12/rewriting-pbdesk-com</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2013/12/rewriting-pbdesk-com</guid>
+        
+        <category>AngularJS</category>
+        
+        <category>MVC</category>
+        
+        <category>PBDesk</category>
+        
+        <category>Umbraco</category>
+        
+        <category>WebAPI</category>
+        
+        
+        <category>featured</category>
+        
+        <category>myprojects</category>
+        
+      </item>
+    
+      <item>
+        <title>AngularJS – Really SuperHeroic JavaScipt</title>
+        <description>&lt;blockquote&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Updated on 30th Aug, 2014 - AngularJS 1.3.0-rc.0 is Out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;The day Apple said it will not support plugins like Flash Player, Silverlight for its iOS based devices, new revolution&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_16018&quot; align=&quot;alignleft&quot; width=&quot;283&quot;]&lt;img class=&quot;size-medium wp-image-16018&quot; src=&quot;assets/angularjs1_thumb-25255B6-25255D-283x300.png&quot; alt=&quot;AngularJS Logo&quot; width=&quot;283&quot; height=&quot;300&quot; /&gt; AngularJS Logo[/caption]&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;started giving momentum to HTML5 and in turn JavaScript.  And JavaScript has evolved a lot in recent years. Hundreds of libraries and framework are now in market to work with it. Till I can remember, &lt;a href=&quot;http://jquery.com/&quot; target=&quot;_blank&quot;&gt;jQuery&lt;/a&gt; was the first which became popular for its simple DOM manipulation APIs and excellent cross browser support. Then started coming up lot of other javascript utilities covering various patterns of javascript usage.  One of them was data-binding and templating , leading  to SPAs&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;The first one I came across  was &lt;a href=&quot;http://knockoutjs.com/&quot; target=&quot;_blank&quot;&gt;KnockoutJS&lt;/a&gt; – It was really simple and great in terms of getting MVC(or MVVM) pattern with HTML/Javascript, but some how I was not happy with its “ko.observable” code and started looking for alternates. And came across &lt;a href=&quot;http://angularjs.org/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;em&gt;AngularJS&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; – simply Awesome and really Super Heroic.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;AngularJS By Google – In true sense Superheroic JavaScript MVW Framework. It just took me away. Now I am really in love with it. Though it has stiff learning curve, but in real sense it’s a Framework. The more I go deep into it the more and more I am becoming fan of it.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_16017&quot; align=&quot;alignright&quot; width=&quot;300&quot;]&lt;img class=&quot;size-medium wp-image-16017&quot; src=&quot;assets/AngularJS_thumb-25255B8-25255D-300x78.jpg&quot; alt=&quot;AngularJS By Google Logo&quot; width=&quot;300&quot; height=&quot;78&quot; /&gt; AngularJS By Google Logo[/caption]&lt;/p&gt;
+&lt;h2&gt;Why AngularJS?&lt;/h2&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Other frameworks deal with HTML’s shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. Every feature can be modified or replaced to suit your unique development workflow and feature needs. Read on to find out how.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Unlike other frameworks, there is no need to inherit from proprietary types; to wrap the model in accessors methods. Just plain old JavaScript here. This makes your code easy to test, maintain, reuse, and again free from boilerplate.&lt;/p&gt;
+&lt;p&gt;https://twitter.com/pbdesk/status/469149468420755456&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 May 2013 10:15:00 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2013/05/angularjs-really-superheroic-javascipt</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2013/05/angularjs-really-superheroic-javascipt</guid>
+        
+        <category>AngularJS</category>
+        
+        <category>JavaScript</category>
+        
+        
+        <category>featured</category>
+        
+        <category>javascript</category>
+        
+        <category>web programming</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+.breadcrumb > li + li:before {
+    content: "| ";
+    padding: 0 5px;
+}
+.breadcrumb{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.posts .entry h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.meta > span + span:before {
+    content: ",  ";
+    padding-right: 10px;
+}
+
+.meta {
+    text-transform: none !important;
+}
+
+.flex-caption a{
+    padding-left: 10px;
+}
+
+.jtxt
+{
+    text-align: justify;
+}
+
+.totop{
+    margin-right:50px;
+}

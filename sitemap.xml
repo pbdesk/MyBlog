@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2015/04/welcome-to-jekyll</loc>
+        
+        <lastmod>2015-04-18T04:21:46-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2014/11/asp-net-vnext-mvc-6-videos</loc>
+        
+        <lastmod>2014-11-11T11:16:08-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2014/11/asp-net-mvc-6-whats-new</loc>
+        
+        <lastmod>2014-11-05T10:35:50-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2014/09/c-code-snippet-send-email</loc>
+        
+        <lastmod>2014-09-20T10:46:58-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2014/08/unit-testing-node-js-with-mocha</loc>
+        
+        <lastmod>2014-08-24T21:53:52-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2014/08/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</loc>
+        
+        <lastmod>2014-08-08T10:00:37-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2014/08/adieu-pbdesk-com-v2</loc>
+        
+        <lastmod>2014-08-06T15:07:20-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2014/07/nodejs-news-update</loc>
+        
+        <lastmod>2014-07-05T08:11:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2013/12/rewriting-pbdesk-com</loc>
+        
+        <lastmod>2013-12-24T04:12:02-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2013/05/angularjs-really-superheroic-javascipt</loc>
+        
+        <lastmod>2013-05-10T10:15:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2013/01/javascript-random-number-between-two-integers</loc>
+        
+        <lastmod>2013-01-07T18:11:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/08/net-4-5-vs2012-windows-8-released</loc>
+        
+        <lastmod>2012-08-23T09:10:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/08/sqlite-browsers-explorers-admin-gui-tools</loc>
+        
+        <lastmod>2012-08-10T16:56:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/08/using-sqlite-with-winrt-metro-windows-8-mobile</loc>
+        
+        <lastmod>2012-08-10T10:50:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/08/inotifypropertychanged-the-net-4-5-way-callermembername</loc>
+        
+        <lastmod>2012-08-07T09:43:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/07/route-constraints-with-asp-net-mvc-webapi</loc>
+        
+        <lastmod>2012-07-17T09:08:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/06/free-ebooks-jquery-metro-apps</loc>
+        
+        <lastmod>2012-06-15T16:17:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/02/c-extension-methods-i-love-them</loc>
+        
+        <lastmod>2012-02-10T12:08:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2012/02/c-generic-string-parser-extension-method</loc>
+        
+        <lastmod>2012-02-01T21:50:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/11/whats-coming-up-new-with-net-4-5</loc>
+        
+        <lastmod>2011-11-29T11:30:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/09/scottgus-asp-net-vnext-series</loc>
+        
+        <lastmod>2011-09-01T08:55:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/09/googles-blogger-gets-a-refresh-new-look</loc>
+        
+        <lastmod>2011-09-01T08:52:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/03/razor-support-in-umbraco-4-7</loc>
+        
+        <lastmod>2011-03-07T11:49:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/02/re-usable-jquery-accordion-for-umbraco</loc>
+        
+        <lastmod>2011-02-03T14:05:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/01/razor-support-in-umbraco</loc>
+        
+        <lastmod>2011-01-25T12:51:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/01/umbraco-razor-syntax-for-breadcrumb</loc>
+        
+        <lastmod>2011-01-21T14:58:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/01/canonical-url-for-umbraco-using-razor-syntax</loc>
+        
+        <lastmod>2011-01-19T14:48:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/01/asp-net-open-source-cms</loc>
+        
+        <lastmod>2011-01-18T14:27:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/01/canonical-urls-for-umbraco</loc>
+        
+        <lastmod>2011-01-03T17:50:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2011/01/canonical-url</loc>
+        
+        <lastmod>2011-01-03T17:29:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/12/free-cdn-service-that-too-from-google</loc>
+        
+        <lastmod>2010-12-22T18:22:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/12/using-cdn-hosted-jquery-library</loc>
+        
+        <lastmod>2010-12-07T15:00:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/12/using-jquery-scripts-hosted-google</loc>
+        
+        <lastmod>2010-12-07T14:54:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/12/using-jquery-scripts-hosted-microsoft</loc>
+        
+        <lastmod>2010-12-07T14:53:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/11/trim-functionality-in-javascript</loc>
+        
+        <lastmod>2010-11-30T11:38:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/11/string-format-for-javascript</loc>
+        
+        <lastmod>2010-11-30T11:33:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/05/mind-reader-this-program-probes-your-mind-try-it</loc>
+        
+        <lastmod>2010-05-07T16:41:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/04/drop-all-objects-in-sql-server</loc>
+        
+        <lastmod>2010-04-01T16:58:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/02/visual-studio-2010-rc-is-now-available</loc>
+        
+        <lastmod>2010-02-11T23:45:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2010/02/null-object-design-pattern</loc>
+        
+        <lastmod>2010-02-03T14:35:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/11/c-news-updates</loc>
+        
+        <lastmod>2009-11-13T17:39:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/11/facebook-membership-provider</loc>
+        
+        <lastmod>2009-11-13T12:27:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/10/at-last-i-am-on-the-google-wave</loc>
+        
+        <lastmod>2009-10-13T15:07:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/10/reading-query-string-with-javascript</loc>
+        
+        <lastmod>2009-10-07T11:40:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/09/google-i-am-falling-in-love</loc>
+        
+        <lastmod>2009-09-23T16:49:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/09/pinal-bhatt-online-my-aggregated-web-activities</loc>
+        
+        <lastmod>2009-09-22T12:31:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/09/chat-with-authorpinal-bhatt</loc>
+        
+        <lastmod>2009-09-14T13:41:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/07/social-bookmarking-linksurls</loc>
+        
+        <lastmod>2009-07-29T11:10:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/07/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</loc>
+        
+        <lastmod>2009-07-20T09:03:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/07/firefox-add-ons-plug-ins-for-web-developers</loc>
+        
+        <lastmod>2009-07-08T12:15:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/07/jquery-ui-demo-theme-slate</loc>
+        
+        <lastmod>2009-07-07T21:52:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/07/jquery-ui-demo-theme-blue</loc>
+        
+        <lastmod>2009-07-07T11:57:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/07/jquery-ui-demo-theme-simple</loc>
+        
+        <lastmod>2009-07-07T09:27:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/07/my-delicious-bookmarks</loc>
+        
+        <lastmod>2009-07-01T10:42:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/06/my-social-networks</loc>
+        
+        <lastmod>2009-06-28T16:37:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/06/subscribe-rss-feeds</loc>
+        
+        <lastmod>2009-06-24T13:51:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/06/learning-f</loc>
+        
+        <lastmod>2009-06-16T13:51:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/06/pinal-bhatt-linked-in</loc>
+        
+        <lastmod>2009-06-14T10:52:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/06/my-facebook-pinal-bhatt</loc>
+        
+        <lastmod>2009-06-14T10:51:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/06/facebook-my-friends-carousel</loc>
+        
+        <lastmod>2009-06-09T15:44:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/06/twitter-tweets-by-pinal-bhatt</loc>
+        
+        <lastmod>2009-06-05T12:26:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/05/assessment-center-ver1-0-scope</loc>
+        
+        <lastmod>2009-05-22T09:15:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/03/uploading-files-to-ftp-server-using-asp-net</loc>
+        
+        <lastmod>2009-03-28T15:45:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/03/pinal-bhatts-blog-learning-endeavor-for-ever</loc>
+        
+        <lastmod>2009-03-18T07:01:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/03/c-tutorial</loc>
+        
+        <lastmod>2009-03-17T06:24:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/03/learning-pathway-for-net</loc>
+        
+        <lastmod>2009-03-17T06:13:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/pinal-bhatts-blog-learning-endeavor-for-ever-2</loc>
+        
+        <lastmod>2009-02-26T20:47:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/my-picture-gallery</loc>
+        
+        <lastmod>2009-02-25T17:07:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/what-is-minified-javascript</loc>
+        
+        <lastmod>2009-02-24T22:59:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/using-jquery-ui-theme-in-blogger-com</loc>
+        
+        <lastmod>2009-02-23T23:12:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/pics-of-winter-dec2008</loc>
+        
+        <lastmod>2009-02-19T23:58:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/downloading-videos-from-youtube-other-sources</loc>
+        
+        <lastmod>2009-02-16T05:52:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/changing-formats-of-audio-video-files</loc>
+        
+        <lastmod>2009-02-16T05:52:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/resource-center-c</loc>
+        
+        <lastmod>2009-02-06T15:43:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/resource-center-visual-basic</loc>
+        
+        <lastmod>2009-02-06T15:42:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/resource-center-silverlight</loc>
+        
+        <lastmod>2009-02-06T15:42:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/resource-center-net-4-0</loc>
+        
+        <lastmod>2009-02-06T15:42:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/hello-world-2</loc>
+        
+        <lastmod>2009-02-06T15:42:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/02/resource-center-visual-studio-2010</loc>
+        
+        <lastmod>2009-02-05T17:12:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/tools-utilities-for-developers</loc>
+        
+        <lastmod>2009-01-30T11:36:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/fun-games</loc>
+        
+        <lastmod>2009-01-30T11:36:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/silverlight-slide-show</loc>
+        
+        <lastmod>2009-01-29T00:15:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/extension-methods-in-c</loc>
+        
+        <lastmod>2009-01-22T07:38:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/regular-expressions-in-javascript</loc>
+        
+        <lastmod>2009-01-22T07:37:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/code-for-strip-html-tags</loc>
+        
+        <lastmod>2009-01-22T07:37:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/useful-sites-for-kids</loc>
+        
+        <lastmod>2009-01-17T15:23:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/www-p-bhatt-com-2nd-release</loc>
+        
+        <lastmod>2009-01-17T15:20:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/cool-gadgetswidgets-for-web-pages</loc>
+        
+        <lastmod>2009-01-17T15:19:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/gadgets</loc>
+        
+        <lastmod>2009-01-14T16:49:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/contact-author-pinal-bhatt</loc>
+        
+        <lastmod>2009-01-10T19:03:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/your-comments</loc>
+        
+        <lastmod>2009-01-10T18:42:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/recent-posts</loc>
+        
+        <lastmod>2009-01-10T13:23:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/featured-posts</loc>
+        
+        <lastmod>2009-01-10T09:31:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/tech-news</loc>
+        
+        <lastmod>2009-01-09T16:17:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/disclaimer</loc>
+        
+        <lastmod>2009-01-09T16:17:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/umbraco-downloads</loc>
+        
+        <lastmod>2009-01-09T16:16:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/project-center</loc>
+        
+        <lastmod>2009-01-09T16:16:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/learning-center</loc>
+        
+        <lastmod>2009-01-09T16:16:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/assessment-center</loc>
+        
+        <lastmod>2009-01-09T16:16:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/sitemap</loc>
+        
+        <lastmod>2009-01-09T15:14:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/pinal-bhatt</loc>
+        
+        <lastmod>2009-01-09T15:14:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/search</loc>
+        
+        <lastmod>2009-01-09T15:13:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/pinal-bhatts-blog</loc>
+        
+        <lastmod>2009-01-07T20:43:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2009/01/101</loc>
+        
+        <lastmod>2009-01-01T16:40:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/abstract-class-vs-interface</loc>
+        
+        <lastmod>2008-11-16T18:16:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/rss-feeds-linq-to-xml</loc>
+        
+        <lastmod>2008-11-16T18:14:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/coding-standards-practices-for-net</loc>
+        
+        <lastmod>2008-11-16T18:14:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/c-vs-vb</loc>
+        
+        <lastmod>2008-11-16T18:14:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/abstract-factory-design-pattern</loc>
+        
+        <lastmod>2008-11-16T18:12:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/prototype-design-pattern</loc>
+        
+        <lastmod>2008-11-16T18:10:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/factory-method-design-pattern</loc>
+        
+        <lastmod>2008-11-16T18:10:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/builder-design-pattern</loc>
+        
+        <lastmod>2008-11-16T18:10:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/singleton-design-pattern</loc>
+        
+        <lastmod>2008-11-16T18:09:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/adapter-design-pattern</loc>
+        
+        <lastmod>2008-11-16T18:08:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/krishna-songs-for-my-little-sweet-heart-tanaya</loc>
+        
+        <lastmod>2008-11-15T12:55:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/krishna-songs-for-my-little-sweet-heart-tanaya-2</loc>
+        
+        <lastmod>2008-11-15T12:37:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/abstract-class-vs-interface-2</loc>
+        
+        <lastmod>2008-11-15T00:00:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/11/resource-center-firefox</loc>
+        
+        <lastmod>2008-11-02T09:16:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/10/my-links</loc>
+        
+        <lastmod>2008-10-25T11:30:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/10/net-framework-news-update</loc>
+        
+        <lastmod>2008-10-25T11:16:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/06/world-clock</loc>
+        
+        <lastmod>2008-06-06T15:50:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/03/design-patterns</loc>
+        
+        <lastmod>2008-03-17T08:27:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/03/c-string-utility-code-snippets</loc>
+        
+        <lastmod>2008-03-09T07:51:00-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/03/generic-methods-to-read-value-from-datareader</loc>
+        
+        <lastmod>2008-03-07T12:43:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/03/abcs-of-c</loc>
+        
+        <lastmod>2008-03-07T07:51:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/02/introduction-to-the-c-programming-language</loc>
+        
+        <lastmod>2008-02-29T13:05:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/02/my-projects</loc>
+        
+        <lastmod>2008-02-20T16:47:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/02/c-enum-tricks-tips</loc>
+        
+        <lastmod>2008-02-20T12:23:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/02/vb-news-updates</loc>
+        
+        <lastmod>2008-02-12T06:28:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/02/comparing-contrasting-abstract-class-vs-interface</loc>
+        
+        <lastmod>2008-02-08T07:18:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/02/comparing-contrasting-c-vs-vb</loc>
+        
+        <lastmod>2008-02-08T07:11:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2008/01/silverlight-news-update</loc>
+        
+        <lastmod>2008-01-01T08:52:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2007/12/search-2</loc>
+        
+        <lastmod>2007-12-27T07:52:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2007/12/common-javascript-utilities</loc>
+        
+        <lastmod>2007-12-19T17:51:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2007/12/net-learning-curve</loc>
+        
+        <lastmod>2007-12-14T17:31:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2007/12/standards-practices-for-software-development-net</loc>
+        
+        <lastmod>2007-12-14T16:15:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2007/12/my-delicious-bookmarks-2</loc>
+        
+        <lastmod>2007-12-13T15:08:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2007/12/javascript-utilities</loc>
+        
+        <lastmod>2007-12-13T15:08:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>http://blog.pbdesk.io/2007/12/blank-post</loc>
+        
+        <lastmod>2007-12-13T12:54:00-05:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</urlset>
