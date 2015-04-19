@@ -1,0 +1,13 @@
+.breadcrumb > li + li:before {
+    content: "| ";
+    padding: 0 5px;
+}
+
+.meta > span + span:before {
+    content: ",  ";
+    padding-right: 10px;
+}
+
+.meta {
+    text-transform: none !important;
+}
