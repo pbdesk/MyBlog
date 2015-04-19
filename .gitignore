@@ -2,3 +2,4 @@ _site/
 .sass-cache/
 .idea/workspace.xml
 MyBlog.iws
+node_modules
