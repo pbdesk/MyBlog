@@ -90,8 +90,16 @@ module Jekyll
       self.ext = '.html'
       self.basename = 'index'
       self.content = <<-EOS
-{% for post in page.posts %}<li><a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}"><span>{{ post.title }}<span></a></li>
-{% endfor %}
+                {% for post in page.posts %}
+                <div class="col-md-4 col-sm-6">
+                    <div class="features-item">
+                        <h4>{{ post.title }}</h4>
+                        <!-- Para -->
+                        <p>{{ post.description }}</p>
+                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">Read more</a>
+                    </div>
+                </div>
+                {% endfor %}
       EOS
       self.data = {
           'layout' => @layout,
