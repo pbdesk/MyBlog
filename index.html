@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="col-md-9">
+
     <div class="whity content">
         <!-- Content should be encloased inside div with the class "posts" -->
         <div class="posts">
@@ -9,29 +9,26 @@ layout: default
             <div class="entry">
                 <div class="padd">
                     <!-- Entry title -->
-                    <h2><a href="#">Recent Posts</a></h2>
+                    <h2><a href="#">You may like this</a></h2>
                     <!-- Flex Slider -->
                     <div class="flexslider">
                         <!-- Slider. Replace below links with your image links. Use image size of 650x380. -->
                         <ul class="slides">
-                            {% for post in site.posts limit:5 %}
-                            <li>
-                                <!-- Link to your picture -->
-                                <img src="{{post.banner}}" alt=""/>
-                                <!-- Caption. It not needed, simply delete the below line. -->
-                                <p class="flex-caption"><a href="{{post.url}}">{{ post.title }}</a></p>
-                            </li>
+                            {% for category in site.categories %}
+                                {% if category contains 'featured' %}
+                                    {% for post in category[1] %}
+                                        <li>
+                                            <!-- Link to your picture -->
+                                            <img src="{{post.banner}}" alt=""/>
+                                            <!-- Caption. It not needed, simply delete the below line. -->
+                                            <p class="flex-caption"><a href="{{post.url}}">{{ post.title }}</a></p>
+                                        </li>
+                                    {% endfor %}
+                                {% endif %}
                             {% endfor %}
                         </ul>
                     </div>
-                    <!-- Entry para -->
-                    <p>Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. Proin porttitor eros a ante molestie gravida commodo dui adipiscing. <a href="#">Morbi dictum nibh gravida</a> mi pretium dapibus.</p>
-                    <blockquote>
-                        <p>Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. </p>
-                        <!-- Author information -->
-                        <small>Ashok</small>
-                    </blockquote>
-                    <p>Aenean porta volutpat neque at suscipit. Quisque a mi velit, vel mollis sapien. Etiam vestibulum bibendum neque, at fermentum leo commodo et. Aenean pharetra, magna et aliquet eleifend, tortor elit suscipit lectus, a dapibus nulla leo et velit. Vestibulum odio erat, porta et hendrerit eu, convallis eget turpis. Cras sit amet nibh dui, a consectetur enim. Nullam sed quam sapien, sit amet venenatis lacus. Vivamus varius suscipit pulvinar.</p>
+                    {% include responsiveAd.html %}
                 </div>
             </div>
             <!-- Features -->
@@ -39,37 +36,31 @@ layout: default
                 <!-- Default block header -->
                 <div class="default-header">
                     <!-- Heading -->
-                    <h2>Features</h2>
+                    <h2>Featured Posts</h2>
                     <hr /><!-- Small border -->
-                    <span>Neque porro quisquam est qui dolorem ipsum quia dolor</span>
+                    <span>from the desk of Pinal Bhatt</span>
                 </div>
                 <div class="row">
+                    {% for category in site.categories %}
+                    {% if category contains 'featured' %}
+                    {% for post in category[1] %}
                     <div class="col-md-4 col-sm-4">
                         <!-- Features #1 -->
                         <div class="features-item">
                             <!-- Heading with font awesome icon -->
-                            <h4><i class="fa fa-heart"></i> Curability Budapest</h4>
+                            <h4>{{post.title}}</h4>
                             <!-- Para -->
-                            <p>Praesent elementum dignissim hendrerit. Etiam porta congue velit tristique. Duis vehicula, volutpat ultricies, felis consequat lacus, tincidunt odio lacus quis sem. Curabitur dapibus nibh id luctus. Nullam convallis metus nulla, id volutpat mauris. </p>
-                            <a href="#" class="btn btn-default">Read more</a>
+                            <p>{{post.description}}</p>
+                            <a href="{{post.url}}" class="btn btn-default">Read more</a>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4">
-                        <!-- Features #2 -->
-                        <div class="features-item">
-                            <h4><i class="fa fa-group"></i> Present Concuss</h4>
-                            <p>Proin ac urna a urna bibendum adipiscing non pharetra nisi. Cras nec arcu leo, et tempor mi. Phasellus a elementum sem. In hac habitasse platea dictumst. Curabitur at gravida lorem. Praesent rhoncus arcu sem, a ultrices mauris. Fusce et urna ligulagy.</p>
-                            <a href="#" class="btn btn-default">Read more</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
-                        <!-- Features #3 -->
-                        <div class="features-item">
-                            <h4><i class="fa fa-cloud"></i> Nascences Semen</h4>
-                            <p>Sed at elit urna, eu interdum mi. Maecenas sed diam dui, et vulputate lorem. Curabitur pretium, urna et gravida cursus, libero erat dapibus tortor, vel posuere sem. Cras blandit, arcu eget lobortis, risus egestas justo, eget molesti. Curable at gravida lorem.</p>
-                            <a href="#" class="btn btn-default">Read more</a>
-                        </div>
-                    </div>
+
+                    {% endfor %}
+                    {% endif %}
+                    {% endfor %}
+
+
+
                 </div>
             </div>
             <!-- Services -->
@@ -77,9 +68,9 @@ layout: default
                 <!-- Default block header -->
                 <div class="default-header">
                     <!-- Heading -->
-                    <h2>Services</h2>
+                    <h2>My Sites</h2>
                     <hr /><!-- Small border -->
-                    <span>Neque porro quisquam est qui dolorem ipsum quia dolor</span>
+                    <span>My sites and projects</span>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
@@ -119,28 +110,13 @@ layout: default
                 <!-- Default block header -->
                 <div class="default-header">
                     <!-- Heading -->
-                    <h2>About Us</h2>
+                    <h2>About Me</h2>
                     <hr /><!-- Small border -->
                     <span>Neque porro quisquam est qui dolorem ipsum quia dolor</span>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
-                        <!-- Staff #1 -->
-                        <div class="staff">
-                            <!-- Staff Picture -->
-                            <div class="author"><img src="img/staff/4.jpg" alt="" /></div>
-                            <!-- Staff name and designation -->
-                            <p class="name">Ashok Kumar<span>Nullam sed</span></p>
-                            <!-- Small para about staff -->
-                            <p>Vestibulum ornare, risus vel pharetra, sagittis turpis lectus et urna.</p>
-                            <!-- Staff social profiles. Replace # with profile link. -->
-                            <div class="social">
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            </div>
-                        </div>
+                       &nbsp;
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <!-- Staff #1 -->
@@ -148,9 +124,9 @@ layout: default
                             <!-- Staff Picture -->
                             <div class="author"><img src="img/staff/5.jpg" alt="" /></div>
                             <!-- Staff name and designation -->
-                            <p class="name">Jakes David <span>Egestas sed</span></p>
+                            <p class="name">Pinal Bhatt <span>Software Engineer</span></p>
                             <!-- Small para about staff -->
-                            <p>Vestibulum ornare, risus vel pharetra, sagittis turpis lectus et urna.</p>
+                            <p>Always on the learning ramp.</p>
                             <!-- Staff social profiles. Replace # with profile link. -->
                             <div class="social">
                                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -161,30 +137,15 @@ layout: default
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4">
-                        <!-- Staff #1 -->
-                        <div class="staff">
-                            <!-- Staff Picture -->
-                            <div class="author"><img src="img/staff/6.jpg" alt="" /></div>
-                            <!-- Staff name and designation -->
-                            <p class="name">Rave Lain <span>Turpis Egestas</span></p>
-                            <!-- Small para about staff -->
-                            <p>Vestibulum ornare, risus vel pharetra, sagittis turpis lectus et urna.</p>
-                            <!-- Staff social profiles. Replace # with profile link. -->
-                            <div class="social">
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            </div>
-                        </div>
+                        &nbsp;
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
+<!--
 
 
 
@@ -214,5 +175,5 @@ layout: default
   {% endfor %}
   <p class="rss-subscribe">subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></p>
 
-</div>
+</div>-->
 

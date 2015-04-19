@@ -28,35 +28,58 @@
                                     </form>
                                 </div>
                             </div>
+                            <!--Ad -->
+                            <div class="widget" >
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- PBDeskIOBlog-180x150 -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:180px;height:150px"
+                                     data-ad-client="ca-pub-4686631795727964"
+                                     data-ad-slot="2637631941"></ins>
+                                <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
                             <!-- 2nd widget -->
                             <div class="widget">
-                                <h3 class="matopen">Categories</h3>
+                                <h3 class="matopen">Featured Categories</h3>
                                 <div class="matter">
                                     <ul>
-                                        {% for cat in site.categories %}
-                                        <li><a href="#">{{ cat[0] }}</a></li>
-                                        {% endfor %}
+                                        <li><a href="/category/javascript">Javascript</a></li>
+                                        <li><a href="/category/nodejs">NodeJS</a></li>
+                                        <li><a href="/category/javascript">Javascript</a></li>
+                                        <li><a href="/category/javascript">Javascript</a></li>
+                                        <li><a href="/categories">All Categories</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <!-- 3rd widget -->
                             <div class="widget">
-                                <h3 class="matopen">Recent Posts</h3>
+                                <h3 class="matopen">Featured Tags</h3>
                                 <div class="matter">
                                     <ul>
-                                        <li><a href="#">Sed eu leo orci, condimentum gravida metus</a></li>
-                                        <li><a href="#">Etiam at nulla ipsum, in rhoncus purus</a></li>
-                                        <li><a href="#">Fusce vel magna faucibus felis dapibus facilisis</a></li>
-                                        <li><a href="#">Vivamus scelerisque dui in massa</a></li>
-                                        <li><a href="#">Pellentesque eget adipiscing dui semper</a></li>
+                                        <li><a href="/tag/javascript">Javascript</a></li>
+                                        <li><a href="/tag/nodejs">NodeJS</a></li>
+                                        <li><a href="/tag/javascript">Javascript</a></li>
+                                        <li><a href="/tag/javascript">Javascript</a></li>
+                                        <li><a href="/tags">All Tags</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
+
                         <!-- Sidebar Ends Here -->
                     </div>
                 </div>
-                {{ content }}
+                <div class="col-md-9">
+                    {{ content }}
+                    <div class="row">
+                        {% include responsiveAd.html %}
+                    </div>
+                </div>
+                <div class="mobily hidden-lg">
+
+                </div>
 
                 <div class="mobily hidden-lg">
 

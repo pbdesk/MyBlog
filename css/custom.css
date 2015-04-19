@@ -11,3 +11,16 @@
 .meta {
     text-transform: none !important;
 }
+
+.flex-caption a{
+    padding-left: 10px;
+}
+
+.jtxt
+{
+    text-align: justify;
+}
+
+.totop{
+    margin-right:50px;
+}

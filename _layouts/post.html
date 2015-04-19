@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="col-md-9">
+
   <div class="padd whity content blog">
     <!-- Main Content Starts Here -->
     <!-- Content should be encloased inside div with the class "posts" -->
@@ -10,7 +10,9 @@ layout: default
       <ul class="breadcrumb">
 
           {% for cat in page.categories %}
+          {% if cat != 'featured' %}
           <li><a href="/category/{{cat}}">{{ cat }}</a></li>
+          {% endif %}
           {% endfor %}
 
       </ul>
@@ -29,6 +31,7 @@ layout: default
         <!-- Entry para -->
           {{ content }}
       </div>
+        {% include responsiveAd.html %}
         {% if site.comments %}
         <div id="disqus_thread"></div>
         <script type="text/javascript">
@@ -44,8 +47,7 @@ layout: default
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         {% endif %}
-
-      <!-- Navigation links -->
+        <!-- Navigation links -->
       <ul class="pager">
         <li class="previous">
           <a href="#">&larr; Previous Post</a>
@@ -57,7 +59,7 @@ layout: default
     </div>
     <!-- Main Content Ends Here -->
   </div>
-</div>
+
 
 <!--
 

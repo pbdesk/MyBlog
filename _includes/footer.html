@@ -10,13 +10,13 @@
           <!-- Add class "widget" -->
           <div class="widget">
             <!-- Title -->
-            <h3>Morbi dictum nibh gravida</h3>
+            <h3>Learning endeavor for ever…</h3>
             <!-- Content -->
             <!-- Below is the blockquote -->
             <blockquote>
-              <p>Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. </p>
+              <p class="jtxt">Welcome to My Blog! On this site you'll find interesting posts, articles, tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#, Windows8, Metro Apps, WCF, XAML, JavaScript, jQuery, AngularJS, NodeJS, Social Media, Mobiles, Science & Technology and other random thoughts and opinions. </p>
               <!-- Author information -->
-              <small>Ashok</small>
+              <small>Pinal Bhatt</small>
             </blockquote>
           </div>
         </div>
@@ -24,13 +24,11 @@
       <div class="col-md-4">
         <div class="padd">
           <div class="widget">
-            <h3>Sed a interdum mauris</h3>
+            <h3>Recent Posts</h3>
             <ul>
-              <li><a href="#">Sed eu leo orci, condimentum gravida metus</a></li>
-              <li><a href="#">Etiam at nulla ipsum, in rhoncus purus</a></li>
-              <li><a href="#">Fusce vel magna faucibus felis dapibus facilisis</a></li>
-              <li><a href="#">Vivamus scelerisque dui in massa</a></li>
-              <li><a href="#">Pellentesque eget adipiscing dui semper</a></li>
+                {% for post in site.posts limit:5 %}
+                <li><a href="{{post.url}}">{{ post.title }}</a></li>
+                {% endfor %}
             </ul>
           </div>
         </div>
@@ -38,13 +36,13 @@
       <div class="col-md-4">
         <div class="padd">
           <div class="widget">
-            <h3>Service</h3>
+            <h3>My Sites</h3>
             <ul>
-              <li><a href="#">Sed eu leo gravida metus</a></li>
-              <li><a href="#">Etiam at rhoncus purus</a></li>
+              <li><a href="http://www.pbdesk.io" target="_blank">PBDesk.IO</a></li>
+              <!--<li><a href="#">Etiam at rhoncus purus</a></li>
               <li><a href="#">Fusce vel dapibus facilisis</a></li>
               <li><a href="#">Vivamus scelerisque dui in massa</a></li>
-              <li><a href="#">Pellentesque eget  dui semper</a></li>
+              <li><a href="#">Pellentesque eget  dui semper</a></li>-->
             </ul>
           </div>
         </div>
@@ -59,14 +57,15 @@
     <div class="row">
       <div class="col-md-12">
         <!-- Copyright information -->
-        <div class="fpadd">Copyright &copy; 2012 - <a href="#">Your Site</a> / <a href="#">Disclaimer</a> / <a href="#">Privacy Policy</a></div>
+        <div class="fpadd">Pinal Bhatt's Blog &copy; 2015 - <a href="/">Home</a> / <a href="/Disclaimer">Disclaimer</a> / <a href="http://PBDesk.IO" target="_blank">PBDesk.io</a></div>
       </div>
     </div>
     <div class="clearfix"></div>
   </div>
 </footer>
-
-<footer class="site-footer">
+<!-- Scroll to top -->
+<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span>
+<!--<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -120,5 +119,5 @@
 
   </div>
 
-</footer>
+</footer>-->
 
