@@ -16,6 +16,7 @@ layout: default
                         <ul class="slides">
                             {% for category in site.categories %}
                                 {% if category contains 'featured' %}
+
                                     {% for post in category[1] %}
                                         <li>
                                             <!-- Link to your picture -->
@@ -24,6 +25,7 @@ layout: default
                                             <p class="flex-caption"><a href="{{post.url}}">{{ post.title }}</a></p>
                                         </li>
                                     {% endfor %}
+
                                 {% endif %}
                             {% endfor %}
                         </ul>
@@ -43,15 +45,13 @@ layout: default
                 <div class="row">
                     {% for category in site.categories %}
                     {% if category contains 'featured' %}
-                    {% for post in category[1] %}
-                    {% include postPagelet.html %}
 
+                    {% for post in category[1] %}
+                        {% include postPagelet.html %}
                     {% endfor %}
+
                     {% endif %}
                     {% endfor %}
-
-
-
                 </div>
             </div>
             <!-- Services -->
