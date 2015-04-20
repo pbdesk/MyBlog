@@ -3,7 +3,6 @@ layout: post
 title: C# Code Snippet to Send Email
 date: 2014-09-20 10:46:58.000000000 -04:00
 categories:
-- .Net
 - Programming
 tags:
 - C#
@@ -23,25 +22,7 @@ featured: false
 <p>Microsoft.Net framework provides <a title="System.Net.Mail Namespace" href="http://msdn.microsoft.com/en-us/library/System.Net.Mail.aspx" target="_blank"><strong>System.Net.Mail</strong> Namespace</a> for handling SMTP and email related utilities. <a href="http://msdn.microsoft.com/en-us/library/system.net.mail.smtpclient.aspx" target="_blank"><strong>SmtpClient</strong> class</a> allows applications to send e-mail by using the Simple Mail Transfer Protocol (SMTP) where as <a href="http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.aspx" target="_blank"><strong>MailMessage</strong> class</a> represents an e-mail message that can be sent using the SmtpClient class.</p>
 <blockquote><p>Please note that <strong>System.Web.Mail</strong> namespace should not be used any more as most of the functionalist in this namespace are now <strong>obsolete</strong>.</p></blockquote>
 <p>Here are few code snippets to send email in C# using SMTP:</p>
-<pre class="theme:github toolbar:1 lang:c# decode:true" title="C# Code Snippet to Send Email">//using System.Net;
-//using System.Net.Mail;
- 
-MailMessage mail = new MailMessage();
-SmtpClient SmtpServer = new SmtpClient("");
- 
-mail.From = new MailAddress("me@mydomain.com");
-mail.To.Add("u@urdomain.com");
-mail.Subject = "Subject";
-mail.Body = "body";
-mail.IsBodyHtml = false;
- 
-SmtpServer.Port = 25; // Or whatever port your smpt server is supporting
-SmtpServer.Credentials = new System.Net.NetworkCredential("me", "password");
-SmtpServer.EnableSsl = true;
- 
-SmtpServer.Send(mail);
-</pre>
-<p>Gist to Send email via Gmail<br />
-[gist id = "48f625bbffcdf8849f4a" file = "SendEmailViaGmail" ]</p>
-<p>And if you want to attach a file, here is code to send email with attachment:<br />
-[gist id = "48f625bbffcdf8849f4a" file = "SendEmailWithAttachment" ]</p>
+<p>Gist to Send email via Gmail</p>
+{% gist pinalbhatt/48f625bbffcdf8849f4a SendEmailViaGmail.cs %}
+<p>And if you want to attach a file, here is code to send email with attachment:</p>
+{% gist pinalbhatt/48f625bbffcdf8849f4a SendEmailWithAttachment.cs %}

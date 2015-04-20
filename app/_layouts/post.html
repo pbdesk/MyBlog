@@ -26,12 +26,15 @@ layout: default
             <i class="fa fa-tags"></i>&nbsp;
                 {% for tag in page.tags %}<span><a href="/tag/{{tag}}">{{tag}}</a></span>{% endfor %}
         </p>
-        <!-- Thumbnail here -->
-        <p class="thumbnail"><img src="{{page.banner}}" alt="" /></p>
-          {% include social_share.html %}
+          <!-- Thumbnail here -->
+          {% if page.banner %}
+            <p class="thumbnail"><img src="{{page.banner}}" alt="" /></p>
+          {% endif %}
+
         <!-- Entry para -->
           {{ content }}
       </div>
+        {% include social_share.html %}
         {% include responsiveAd.html %}
         {% if site.comments %}
         <div id="disqus_thread"></div>
