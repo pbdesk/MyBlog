@@ -5,6 +5,15 @@
     <meta name="google-site-verification" content="9-QraChwe87dbsB7Z9mUPhsr7x8p3-Th81YdZnvMHnI" />
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="" />
+    <meta name="author" content="Pinal Bhatt" />
+
+    <meta property="fb:admins" content="731775365" />
+    <meta property="fb:app_id" content="150800278297282"/>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{page.url | prepend: site.baseurl | prepend: site.url}}" />
+    <link href="https://plus.google.com/104802217330869674552" rel="publisher" />
+    <link href="https://plus.google.com/116495447274977757345?rel=author" rel="author" />
 
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/">
