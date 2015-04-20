@@ -14,18 +14,12 @@ layout: default
                     <div class="flexslider">
                         <!-- Slider. Replace below links with your image links. Use image size of 650x380. -->
                         <ul class="slides">
-                            {% for category in site.categories %}
-                                {% if category contains 'featured' %}
-
-                                    {% for post in category[1] %}
-                                        <li>
-                                            <!-- Link to your picture -->
-                                            <img src="{{post.banner}}" alt=""/>
-                                            <!-- Caption. It not needed, simply delete the below line. -->
-                                            <p class="flex-caption"><a href="{{post.url}}">{{ post.title }}</a></p>
-                                        </li>
-                                    {% endfor %}
-
+                            {% for post in site.posts %}
+                                {% if post.featured == true  %}
+                                    <li>
+                                        <img src="{{post.banner}}" alt=""/>
+                                        <p class="flex-caption"><a href="{{post.url}}">{{ post.title }}</a></p>
+                                    </li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
@@ -43,13 +37,9 @@ layout: default
                     <span>from the desk of Pinal Bhatt</span>
                 </div>
                 <div class="row">
-                    {% for category in site.categories %}
-                    {% if category contains 'featured' %}
-
-                    {% for post in category[1] %}
+                    {% for post in site.posts %}
+                    {% if post.featured == true  %}
                         {% include postPagelet.html %}
-                    {% endfor %}
-
                     {% endif %}
                     {% endfor %}
                 </div>

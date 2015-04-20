@@ -8,6 +8,7 @@ date:   2015-04-18 08:21:46
 categories: jekyll featured
 tags:
 - Jekyll
+featured: true
 banner: /imgs/2015/04/logo-jekyll.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
