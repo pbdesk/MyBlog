@@ -57,6 +57,16 @@
 }
 .features-item h4
 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+#filters li {
+    line-height: 35px;
+}
+
+.catNameStyle{
+    text-transform: capitalize;
 }

@@ -11,7 +11,7 @@ layout: default
 
           {% for cat in page.categories %}
           {% if cat != 'featured' %}
-          <li><a href="/category/{{cat}}">{{ cat }}</a></li>
+          <li><a href="/category/{{cat}}" class="catNameStyle">{{ cat }}</a></li>
           {% endif %}
           {% endfor %}
 

@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-stitle: "Welcome to Jekyll!"
-description: Default post created by Jekyll. Keeping it as is to show my liking for Jekyll.
-sdesc: Default post created by Jekyll
-date:   2015-04-18 08:21:46
+title:  "Moving my blog to Jekyll!"
+stitle: "Moving my blog to Jekyll!"
+description: "Moving my blog from word press to Jekyll!"
+sdesc: "Moving my blog from word press to Jekyll!"
+date:   2015-04-20 08:21:46
 categories: jekyll
 tags:
 - Jekyll
-featured: true
-banner: /imgs/2015/04/logo-jekyll.png
+featured: false
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
