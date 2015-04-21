@@ -24,6 +24,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href='/css/flexslider.css'>
+    <link rel="stylesheet" href='/css/prettyPhoto.css'>
     <link rel="stylesheet" href='/css/green.css'>
     <link rel="stylesheet" href='/css/style.css'>
     <link rel="stylesheet" href='/css/custom.css'>
@@ -128,11 +129,11 @@
                                 <h3 class="matopen">Featured Categories</h3>
                                 <div class="matter">
                                     <ul>
-                                        <li><a href="/category/javascript">Javascript</a></li>
+                                        <li><a href="/category/.net">.Net</a></li>
                                         <li><a href="/category/nodejs">NodeJS</a></li>
-                                        <li><a href="/category/javascript">Javascript</a></li>
-                                        <li><a href="/category/javascript">Javascript</a></li>
-                                        <li><a href="/app/categoriesries">All Categories</a></li>
+                                        <li><a href="/category/angularjs">AngularJS</a></li>
+                                        <li><a href="/category/programming">Programming</a></li>
+                                        <li><a href="/categories">All Categories</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -145,7 +146,7 @@
                                         <li><a href="/tag/nodejs">NodeJS</a></li>
                                         <li><a href="/tag/javascript">Javascript</a></li>
                                         <li><a href="/tag/javascript">Javascript</a></li>
-                                        <li><a href="/app/tags">All Tags</a></li>
+                                        <li><a href="/tags">All Tags</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -164,7 +165,7 @@
 
           
           
-          <li><a href="/category/programming">programming</a></li>
+          <li><a href="/category/programming" class="catNameStyle">programming</a></li>
           
           
 
@@ -179,9 +180,34 @@
             <i class="fa fa-tags"></i>&nbsp;
                 
         </p>
-        <!-- Thumbnail here -->
-        <p class="thumbnail"><img src="" alt="" /></p>
-          <div class="row">
+          <!-- Thumbnail here -->
+          
+
+        <!-- Entry para -->
+          <p>Below is the T-SQL script for dropping all the objects from a database in SQL Server. This script in particular drops Procedures, Functions, Tables, Views and Types. For other database objects please create similar script.</p>
+<div>
+<div>Drop All Objects in SQL Server</div>
+<div>
+<p>declare @n char(1)<br />set @n = char(10)  </p>
+<p>declare @stmt nvarchar(max)  </p>
+<p>-- procedures<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop procedure [' + name + ']'<br />from sys.procedures  </p>
+<p>-- check constraints<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'alter table [' + object_name( parent_object_id ) + '] drop constraint [' + name + ']'<br />from sys.check_constraints  </p>
+<p>-- functions<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop function [' + name + ']'<br />from sys.objects<br />where type in ( 'FN', 'IF', 'TF' )  </p>
+<p>-- views<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop view [' + name + ']'<br />from sys.views  </p>
+<p>-- foreign keys<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'alter table [' + object_name( parent_object_id ) + '] drop constraint [' + name + ']'<br />from sys.foreign_keys  </p>
+<p>-- tables<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop table [' + name + ']'<br />from sys.tables  </p>
+<p>-- user defined types<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop type [' + name + ']'<br />from sys.types<br />where is_user_defined = 1  </p>
+<p>exec sp_executesql @stmt</p>
+</div>
+</div>
+<div>
+<pre>&nbsp;</pre>
+</div>
+<h2>Courtesy </h2>
+<p><a title="http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx" href="http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx">http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx</a></p>
+
+      </div>
+        <div class="row">
     <div class="col-md-4 col-sm-4">
         <div class="service-item">
             <p> <!--<a class="twitter-follow-button"
@@ -207,30 +233,6 @@
         </div>
     </div>
 </div>
-        <!-- Entry para -->
-          <p>Below is the T-SQL script for dropping all the objects from a database in SQL Server. This script in particular drops Procedures, Functions, Tables, Views and Types. For other database objects please create similar script.</p>
-<div>
-<div>Drop All Objects in SQL Server</div>
-<div>
-<p>declare @n char(1)<br />set @n = char(10)  </p>
-<p>declare @stmt nvarchar(max)  </p>
-<p>-- procedures<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop procedure [' + name + ']'<br />from sys.procedures  </p>
-<p>-- check constraints<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'alter table [' + object_name( parent_object_id ) + '] drop constraint [' + name + ']'<br />from sys.check_constraints  </p>
-<p>-- functions<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop function [' + name + ']'<br />from sys.objects<br />where type in ( 'FN', 'IF', 'TF' )  </p>
-<p>-- views<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop view [' + name + ']'<br />from sys.views  </p>
-<p>-- foreign keys<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'alter table [' + object_name( parent_object_id ) + '] drop constraint [' + name + ']'<br />from sys.foreign_keys  </p>
-<p>-- tables<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop table [' + name + ']'<br />from sys.tables  </p>
-<p>-- user defined types<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop type [' + name + ']'<br />from sys.types<br />where is_user_defined = 1  </p>
-<p>exec sp_executesql @stmt</p>
-</div>
-</div>
-<div>
-<pre>&nbsp;</pre>
-</div>
-<h2>Courtesy </h2>
-<p><a title="http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx" href="http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx">http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx</a></p>
-
-      </div>
         <div class="gAd">
     <!-- PBDeskIOBlog-Responsive-Ad -->
     <ins class="adsbygoogle"
@@ -362,6 +364,8 @@
             <h3>Recent Posts</h3>
             <ul>
                 
+                <li><a href="/2015/04/Moving-My-Blog-To-Jekyll">Moving my blog to Jekyll!</a></li>
+                
                 <li><a href="/2015/04/welcome-to-jekyll">Welcome to Jekyll!</a></li>
                 
                 <li><a href="/2014/11/asp-net-vnext-mvc-6-videos">ASP.Net vNext MVC 6 Videos</a></li>
@@ -369,8 +373,6 @@
                 <li><a href="/2014/11/asp-net-mvc-6-whats-new">ASP.Net MVC 6 - Whats New?</a></li>
                 
                 <li><a href="/2014/09/c-code-snippet-send-email">C# Code Snippet to Send Email</a></li>
-                
-                <li><a href="/2014/08/unit-testing-node-js-with-mocha">Unit Testing Node.JS With Mocha</a></li>
                 
             </ul>
           </div>
@@ -470,6 +472,8 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/js/easing.js"></script>
 <script src="/js/flexslider.js"></script>
+<script src="/js/jquery.prettyPhoto.js"></script>
+<script src="/js/isotope.js"></script>
 <script src="/js/custom.js"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->

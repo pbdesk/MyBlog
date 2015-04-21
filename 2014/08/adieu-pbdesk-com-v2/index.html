@@ -24,6 +24,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href='/css/flexslider.css'>
+    <link rel="stylesheet" href='/css/prettyPhoto.css'>
     <link rel="stylesheet" href='/css/green.css'>
     <link rel="stylesheet" href='/css/style.css'>
     <link rel="stylesheet" href='/css/custom.css'>
@@ -128,11 +129,11 @@
                                 <h3 class="matopen">Featured Categories</h3>
                                 <div class="matter">
                                     <ul>
-                                        <li><a href="/category/javascript">Javascript</a></li>
+                                        <li><a href="/category/.net">.Net</a></li>
                                         <li><a href="/category/nodejs">NodeJS</a></li>
-                                        <li><a href="/category/javascript">Javascript</a></li>
-                                        <li><a href="/category/javascript">Javascript</a></li>
-                                        <li><a href="/app/categoriesries">All Categories</a></li>
+                                        <li><a href="/category/angularjs">AngularJS</a></li>
+                                        <li><a href="/category/programming">Programming</a></li>
+                                        <li><a href="/categories">All Categories</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -145,7 +146,7 @@
                                         <li><a href="/tag/nodejs">NodeJS</a></li>
                                         <li><a href="/tag/javascript">Javascript</a></li>
                                         <li><a href="/tag/javascript">Javascript</a></li>
-                                        <li><a href="/app/tags">All Tags</a></li>
+                                        <li><a href="/tags">All Tags</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -166,7 +167,7 @@
           
           
           
-          <li><a href="/category/myprojects">myprojects</a></li>
+          <li><a href="/category/myprojects" class="catNameStyle">myprojects</a></li>
           
           
 
@@ -181,9 +182,22 @@
             <i class="fa fa-tags"></i>&nbsp;
                 <span><a href="/tag/PBDesk">PBDesk</a></span>
         </p>
-        <!-- Thumbnail here -->
-        <p class="thumbnail"><img src="/imgs/2014/08/2013_homepage.png" alt="" /></p>
-          <div class="row">
+          <!-- Thumbnail here -->
+          
+            <p class="thumbnail"><img src="/imgs/2014/08/2013_homepage.png" alt="" /></p>
+          
+
+        <!-- Entry para -->
+          <p style="text-align: justify;">Long back posted that i want to <a title="ReWriting PBDesk.com" href="http://blogs.pbdesk.com/rewriting-pbdesk-com/" target="_blank">rewrite my site </a>with all new ASP.Net MVC, WebAPI, Umbaco7, AngularJS &amp; Twitter Bootstrap.  It took lot of time for me to rewrite my site but finally New PBDesk.com V3 is almost ready now so its time to say good bye to existing site what I call V2.  But i have archived this old site at http://2013.PBDesk.com.[stextbox id="info"]Old site archived at <a title="PBDesk.com V2" href="http://2013.PBDesk.com" target="_blank">http://2013.PBDesk.com</a>.[/stextbox]</p>
+<p style="text-align: justify;">Here are glimpse of old site.</p>
+<p>[gallery link="none" type="slideshow" ids="16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022"]</p>
+<p>&nbsp;</p>
+<p>[gallery link="file" ids="16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022"]</p>
+<p>[stextbox id="info"]New site now live at <a title="PBDesk.com - from the desk of Pinal Bhatt" href="http://www.PBDesk.com" target="_blank">PBDesk.com</a>[/stextbox]</p>
+<p>&nbsp;</p>
+
+      </div>
+        <div class="row">
     <div class="col-md-4 col-sm-4">
         <div class="service-item">
             <p> <!--<a class="twitter-follow-button"
@@ -209,16 +223,6 @@
         </div>
     </div>
 </div>
-        <!-- Entry para -->
-          <p style="text-align: justify;">Long back posted that i want to <a title="ReWriting PBDesk.com" href="http://blogs.pbdesk.com/rewriting-pbdesk-com/" target="_blank">rewrite my site </a>with all new ASP.Net MVC, WebAPI, Umbaco7, AngularJS &amp; Twitter Bootstrap.  It took lot of time for me to rewrite my site but finally New PBDesk.com V3 is almost ready now so its time to say good bye to existing site what I call V2.  But i have archived this old site at http://2013.PBDesk.com.[stextbox id="info"]Old site archived at <a title="PBDesk.com V2" href="http://2013.PBDesk.com" target="_blank">http://2013.PBDesk.com</a>.[/stextbox]</p>
-<p style="text-align: justify;">Here are glimpse of old site.</p>
-<p>[gallery link="none" type="slideshow" ids="16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022"]</p>
-<p>&nbsp;</p>
-<p>[gallery link="file" ids="16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022"]</p>
-<p>[stextbox id="info"]New site now live at <a title="PBDesk.com - from the desk of Pinal Bhatt" href="http://www.PBDesk.com" target="_blank">PBDesk.com</a>[/stextbox]</p>
-<p>&nbsp;</p>
-
-      </div>
         <div class="gAd">
     <!-- PBDeskIOBlog-Responsive-Ad -->
     <ins class="adsbygoogle"
@@ -336,6 +340,8 @@
             <h3>Recent Posts</h3>
             <ul>
                 
+                <li><a href="/2015/04/Moving-My-Blog-To-Jekyll">Moving my blog to Jekyll!</a></li>
+                
                 <li><a href="/2015/04/welcome-to-jekyll">Welcome to Jekyll!</a></li>
                 
                 <li><a href="/2014/11/asp-net-vnext-mvc-6-videos">ASP.Net vNext MVC 6 Videos</a></li>
@@ -343,8 +349,6 @@
                 <li><a href="/2014/11/asp-net-mvc-6-whats-new">ASP.Net MVC 6 - Whats New?</a></li>
                 
                 <li><a href="/2014/09/c-code-snippet-send-email">C# Code Snippet to Send Email</a></li>
-                
-                <li><a href="/2014/08/unit-testing-node-js-with-mocha">Unit Testing Node.JS With Mocha</a></li>
                 
             </ul>
           </div>
@@ -444,6 +448,8 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/js/easing.js"></script>
 <script src="/js/flexslider.js"></script>
+<script src="/js/jquery.prettyPhoto.js"></script>
+<script src="/js/isotope.js"></script>
 <script src="/js/custom.js"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->

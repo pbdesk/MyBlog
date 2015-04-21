@@ -24,6 +24,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href='/css/flexslider.css'>
+    <link rel="stylesheet" href='/css/prettyPhoto.css'>
     <link rel="stylesheet" href='/css/green.css'>
     <link rel="stylesheet" href='/css/style.css'>
     <link rel="stylesheet" href='/css/custom.css'>
@@ -128,11 +129,11 @@
                                 <h3 class="matopen">Featured Categories</h3>
                                 <div class="matter">
                                     <ul>
-                                        <li><a href="/category/javascript">Javascript</a></li>
+                                        <li><a href="/category/.net">.Net</a></li>
                                         <li><a href="/category/nodejs">NodeJS</a></li>
-                                        <li><a href="/category/javascript">Javascript</a></li>
-                                        <li><a href="/category/javascript">Javascript</a></li>
-                                        <li><a href="/app/categoriesries">All Categories</a></li>
+                                        <li><a href="/category/angularjs">AngularJS</a></li>
+                                        <li><a href="/category/programming">Programming</a></li>
+                                        <li><a href="/categories">All Categories</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -145,7 +146,7 @@
                                         <li><a href="/tag/nodejs">NodeJS</a></li>
                                         <li><a href="/tag/javascript">Javascript</a></li>
                                         <li><a href="/tag/javascript">Javascript</a></li>
-                                        <li><a href="/app/tags">All Tags</a></li>
+                                        <li><a href="/tags">All Tags</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -164,11 +165,11 @@
 
           
           
-          <li><a href="/category/google">google</a></li>
+          <li><a href="/category/google" class="catNameStyle">google</a></li>
           
           
           
-          <li><a href="/category/javascript">javascript</a></li>
+          <li><a href="/category/javascript" class="catNameStyle">javascript</a></li>
           
           
 
@@ -183,9 +184,25 @@
             <i class="fa fa-tags"></i>&nbsp;
                 
         </p>
-        <!-- Thumbnail here -->
-        <p class="thumbnail"><img src="" alt="" /></p>
-          <div class="row">
+          <!-- Thumbnail here -->
+          
+
+        <!-- Entry para -->
+          <p>As mentioned in my previous <a href="http://blog.pbdesk.com/2010/12/using-cdn-hosted-jquery-library.html">post</a>, rather then hosting jQuery libraries on our sever we can directly use them from CDN services available from Microsoft &amp; Google. And there are various advantages of using this. In this article we will see on how to use jQuery library hosted at Google. </p>
+<p>Google hosts following popular, open-source JavaScript libraries at its API's library (ajax.googleapis.com): Chrome Frame, Dojo, Ext Core, jQuery, jQuery UI, MooTools, Prototype, script.aculo.us,SWFObject, Yahoo! User Interface Library (YUI),WebFont Loader. For more details about the usage and the versions available please visit:</p>
+<p>&#160; <a href="http://code.google.com/apis/libraries/devguide.html">http://code.google.com/apis/libraries/devguide.html</a></p>
+<p>You can access there libraries directly via url, you don't need API key if you are not using Google Libraries' APIs.&#160; </p>
+<p>Below are some other links that may be useful :</p>
+<h2>Related Links</h2>
+<ul>
+<li><a href="http://code.google.com/apis/libraries/devguide.html" target="_blank">Google Libraries API - Developer's Guide</a> </li>
+<li><a href="http://webmuch.com/how-why-you-should-use-google-cdn/" target="_blank">How &amp; why you should use Google CDN</a> </li>
+<li><a href="http://stackoverflow.com/questions/1447184/microsoft-cdn-for-jquery-or-google-cdn" target="_blank">Microsoft CDN for JQuery or Google CDN?</a> </li>
+<li><a href="http://scriptsrc.net/">http://scriptsrc.net/</a></li>
+</ul>
+
+      </div>
+        <div class="row">
     <div class="col-md-4 col-sm-4">
         <div class="service-item">
             <p> <!--<a class="twitter-follow-button"
@@ -211,21 +228,6 @@
         </div>
     </div>
 </div>
-        <!-- Entry para -->
-          <p>As mentioned in my previous <a href="http://blog.pbdesk.com/2010/12/using-cdn-hosted-jquery-library.html">post</a>, rather then hosting jQuery libraries on our sever we can directly use them from CDN services available from Microsoft &amp; Google. And there are various advantages of using this. In this article we will see on how to use jQuery library hosted at Google. </p>
-<p>Google hosts following popular, open-source JavaScript libraries at its API's library (ajax.googleapis.com): Chrome Frame, Dojo, Ext Core, jQuery, jQuery UI, MooTools, Prototype, script.aculo.us,SWFObject, Yahoo! User Interface Library (YUI),WebFont Loader. For more details about the usage and the versions available please visit:</p>
-<p>&#160; <a href="http://code.google.com/apis/libraries/devguide.html">http://code.google.com/apis/libraries/devguide.html</a></p>
-<p>You can access there libraries directly via url, you don't need API key if you are not using Google Libraries' APIs.&#160; </p>
-<p>Below are some other links that may be useful :</p>
-<h2>Related Links</h2>
-<ul>
-<li><a href="http://code.google.com/apis/libraries/devguide.html" target="_blank">Google Libraries API - Developer's Guide</a> </li>
-<li><a href="http://webmuch.com/how-why-you-should-use-google-cdn/" target="_blank">How &amp; why you should use Google CDN</a> </li>
-<li><a href="http://stackoverflow.com/questions/1447184/microsoft-cdn-for-jquery-or-google-cdn" target="_blank">Microsoft CDN for JQuery or Google CDN?</a> </li>
-<li><a href="http://scriptsrc.net/">http://scriptsrc.net/</a></li>
-</ul>
-
-      </div>
         <div class="gAd">
     <!-- PBDeskIOBlog-Responsive-Ad -->
     <ins class="adsbygoogle"
@@ -348,6 +350,8 @@
             <h3>Recent Posts</h3>
             <ul>
                 
+                <li><a href="/2015/04/Moving-My-Blog-To-Jekyll">Moving my blog to Jekyll!</a></li>
+                
                 <li><a href="/2015/04/welcome-to-jekyll">Welcome to Jekyll!</a></li>
                 
                 <li><a href="/2014/11/asp-net-vnext-mvc-6-videos">ASP.Net vNext MVC 6 Videos</a></li>
@@ -355,8 +359,6 @@
                 <li><a href="/2014/11/asp-net-mvc-6-whats-new">ASP.Net MVC 6 - Whats New?</a></li>
                 
                 <li><a href="/2014/09/c-code-snippet-send-email">C# Code Snippet to Send Email</a></li>
-                
-                <li><a href="/2014/08/unit-testing-node-js-with-mocha">Unit Testing Node.JS With Mocha</a></li>
                 
             </ul>
           </div>
@@ -456,6 +458,8 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="/js/easing.js"></script>
 <script src="/js/flexslider.js"></script>
+<script src="/js/jquery.prettyPhoto.js"></script>
+<script src="/js/isotope.js"></script>
 <script src="/js/custom.js"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->

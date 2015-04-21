@@ -2,6 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://blog.pbdesk.io/2015/04/Moving-My-Blog-To-Jekyll</loc>
+        
+        <lastmod>2015-04-20T04:21:46-04:00</lastmod>
+        
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
         <loc>http://blog.pbdesk.io/2015/04/welcome-to-jekyll</loc>
         
         <lastmod>2015-04-18T04:21:46-04:00</lastmod>
@@ -1251,10 +1260,6 @@
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
-    
-    
-    
-    
     
     
     

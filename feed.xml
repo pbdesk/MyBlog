@@ -6,13 +6,39 @@
 </description>
     <link>http://blog.pbdesk.io/</link>
     <atom:link href="http://blog.pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2015 23:20:22 -0400</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2015 23:20:22 -0400</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2015 20:53:13 -0400</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2015 20:53:13 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Moving my blog to Jekyll!</title>
+        <description>&lt;p&gt;Yes I am moving my blog(blog.PBDesk.com) from WordPress to Jekyll and hosted at Github pages at http://blog.pbdesk.io&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;http://blog.pbdesk.io Preview is almost ready&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Soon will write more about my experience on moving my blog from Wordpress to Jekyll.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Apr 2015 04:21:46 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2015/04/Moving-My-Blog-To-Jekyll</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2015/04/Moving-My-Blog-To-Jekyll</guid>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;This was the default post created when I created Jekyll project. Keeping this post as is to show my liking for Jekyll.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -35,8 +61,6 @@
         
         
         <category>jekyll</category>
-        
-        <category>featured</category>
         
       </item>
     
@@ -162,28 +186,10 @@
         <description>&lt;p&gt;Microsoft.Net framework provides &lt;a title=&quot;System.Net.Mail Namespace&quot; href=&quot;http://msdn.microsoft.com/en-us/library/System.Net.Mail.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;System.Net.Mail&lt;/strong&gt; Namespace&lt;/a&gt; for handling SMTP and email related utilities. &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.net.mail.smtpclient.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;SmtpClient&lt;/strong&gt; class&lt;/a&gt; allows applications to send e-mail by using the Simple Mail Transfer Protocol (SMTP) where as &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;MailMessage&lt;/strong&gt; class&lt;/a&gt; represents an e-mail message that can be sent using the SmtpClient class.&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;Please note that &lt;strong&gt;System.Web.Mail&lt;/strong&gt; namespace should not be used any more as most of the functionalist in this namespace are now &lt;strong&gt;obsolete&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Here are few code snippets to send email in C# using SMTP:&lt;/p&gt;
-&lt;pre class=&quot;theme:github toolbar:1 lang:c# decode:true&quot; title=&quot;C# Code Snippet to Send Email&quot;&gt;//using System.Net;
-//using System.Net.Mail;
- 
-MailMessage mail = new MailMessage();
-SmtpClient SmtpServer = new SmtpClient(&quot;&quot;);
- 
-mail.From = new MailAddress(&quot;me@mydomain.com&quot;);
-mail.To.Add(&quot;u@urdomain.com&quot;);
-mail.Subject = &quot;Subject&quot;;
-mail.Body = &quot;body&quot;;
-mail.IsBodyHtml = false;
- 
-SmtpServer.Port = 25; // Or whatever port your smpt server is supporting
-SmtpServer.Credentials = new System.Net.NetworkCredential(&quot;me&quot;, &quot;password&quot;);
-SmtpServer.EnableSsl = true;
- 
-SmtpServer.Send(mail);
-&lt;/pre&gt;
-&lt;p&gt;Gist to Send email via Gmail&lt;br /&gt;
-[gist id = &quot;48f625bbffcdf8849f4a&quot; file = &quot;SendEmailViaGmail&quot; ]&lt;/p&gt;
-&lt;p&gt;And if you want to attach a file, here is code to send email with attachment:&lt;br /&gt;
-[gist id = &quot;48f625bbffcdf8849f4a&quot; file = &quot;SendEmailWithAttachment&quot; ]&lt;/p&gt;
+&lt;p&gt;Gist to Send email via Gmail&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/pinalbhatt/48f625bbffcdf8849f4a.js?file=SendEmailViaGmail.cs&quot;&gt; &lt;/script&gt;
+&lt;p&gt;And if you want to attach a file, here is code to send email with attachment:&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/pinalbhatt/48f625bbffcdf8849f4a.js?file=SendEmailWithAttachment.cs&quot;&gt; &lt;/script&gt;
 </description>
         <pubDate>Sat, 20 Sep 2014 10:46:58 -0400</pubDate>
         <link>http://blog.pbdesk.io/2014/09/c-code-snippet-send-email</link>
@@ -193,8 +199,6 @@ SmtpServer.Send(mail);
         
         <category>CodeSnippet</category>
         
-        
-        <category>.net</category>
         
         <category>programming</category>
         
@@ -228,9 +232,7 @@ SmtpServer.Send(mail);
         <category>Programming</category>
         
         
-        <category>javascript</category>
-        
-        <category>node.js</category>
+        <category>nodejs</category>
         
       </item>
     
@@ -261,11 +263,7 @@ SmtpServer.Send(mail);
         <category>VS2013</category>
         
         
-        <category>featured</category>
-        
-        <category>javascript</category>
-        
-        <category>node.js</category>
+        <category>nodejs</category>
         
       </item>
     
@@ -303,11 +301,7 @@ SmtpServer.Send(mail);
         <guid isPermaLink="true">http://blog.pbdesk.io/2014/07/nodejs-news-update</guid>
         
         
-        <category>featured</category>
-        
-        <category>node.js</category>
-        
-        <category>programming</category>
+        <category>nodejs</category>
         
       </item>
     
@@ -338,46 +332,7 @@ SmtpServer.Send(mail);
         <category>WebAPI</category>
         
         
-        <category>featured</category>
-        
         <category>myprojects</category>
-        
-      </item>
-    
-      <item>
-        <title>AngularJS – Really SuperHeroic JavaScipt</title>
-        <description>&lt;blockquote&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Updated on 30th Aug, 2014 - AngularJS 1.3.0-rc.0 is Out.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;The day Apple said it will not support plugins like Flash Player, Silverlight for its iOS based devices, new revolution&lt;/p&gt;
-&lt;p&gt;[caption id=&quot;attachment_16018&quot; align=&quot;alignleft&quot; width=&quot;283&quot;]&lt;img class=&quot;size-medium wp-image-16018&quot; src=&quot;assets/angularjs1_thumb-25255B6-25255D-283x300.png&quot; alt=&quot;AngularJS Logo&quot; width=&quot;283&quot; height=&quot;300&quot; /&gt; AngularJS Logo[/caption]&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;started giving momentum to HTML5 and in turn JavaScript.  And JavaScript has evolved a lot in recent years. Hundreds of libraries and framework are now in market to work with it. Till I can remember, &lt;a href=&quot;http://jquery.com/&quot; target=&quot;_blank&quot;&gt;jQuery&lt;/a&gt; was the first which became popular for its simple DOM manipulation APIs and excellent cross browser support. Then started coming up lot of other javascript utilities covering various patterns of javascript usage.  One of them was data-binding and templating , leading  to SPAs&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;The first one I came across  was &lt;a href=&quot;http://knockoutjs.com/&quot; target=&quot;_blank&quot;&gt;KnockoutJS&lt;/a&gt; – It was really simple and great in terms of getting MVC(or MVVM) pattern with HTML/Javascript, but some how I was not happy with its “ko.observable” code and started looking for alternates. And came across &lt;a href=&quot;http://angularjs.org/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;em&gt;AngularJS&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; – simply Awesome and really Super Heroic.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;AngularJS By Google – In true sense Superheroic JavaScript MVW Framework. It just took me away. Now I am really in love with it. Though it has stiff learning curve, but in real sense it’s a Framework. The more I go deep into it the more and more I am becoming fan of it.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;[caption id=&quot;attachment_16017&quot; align=&quot;alignright&quot; width=&quot;300&quot;]&lt;img class=&quot;size-medium wp-image-16017&quot; src=&quot;assets/AngularJS_thumb-25255B8-25255D-300x78.jpg&quot; alt=&quot;AngularJS By Google Logo&quot; width=&quot;300&quot; height=&quot;78&quot; /&gt; AngularJS By Google Logo[/caption]&lt;/p&gt;
-&lt;h2&gt;Why AngularJS?&lt;/h2&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Other frameworks deal with HTML’s shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. Every feature can be modified or replaced to suit your unique development workflow and feature needs. Read on to find out how.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Unlike other frameworks, there is no need to inherit from proprietary types; to wrap the model in accessors methods. Just plain old JavaScript here. This makes your code easy to test, maintain, reuse, and again free from boilerplate.&lt;/p&gt;
-&lt;p&gt;https://twitter.com/pbdesk/status/469149468420755456&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 May 2013 10:15:00 -0400</pubDate>
-        <link>http://blog.pbdesk.io/2013/05/angularjs-really-superheroic-javascipt</link>
-        <guid isPermaLink="true">http://blog.pbdesk.io/2013/05/angularjs-really-superheroic-javascipt</guid>
-        
-        <category>AngularJS</category>
-        
-        <category>JavaScript</category>
-        
-        
-        <category>featured</category>
-        
-        <category>javascript</category>
-        
-        <category>web programming</category>
         
       </item>
     
