@@ -31,6 +31,10 @@
     text-align: justify;
 }
 
+.capitalize{
+    text-transform: capitalize;
+}
+
 .totop{
     margin-right:50px;
 }
@@ -61,6 +65,10 @@
     font-weight: bolder;
     margin: 0px;
     padding-bottom: 0px;
+}
+
+.features-item{
+    border-bottom: dashed 1px #ccc;
 }
 
 #filters1{

@@ -91,12 +91,24 @@ module Jekyll
       self.basename = 'index'
       self.content = <<-EOS
                 {% for post in page.posts %}
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-6 col-sm-6" >
                     <div class="features-item">
-                        <h4>{{ post.title }}</h4>
-                        <!-- Para -->
-                        <p>{{ post.description }}</p>
-                        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">Read more</a>
+                        <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+                        <p>
+                            <i class="fa fa-calendar"></i>&nbsp; {{ post.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;&nbsp;
+                            <span>
+                                <i class="fa fa-folder-open"></i>
+                                {% for cat in post.categories %}
+                                 <a href="/category/{{cat}}" style="text-transform: capitalize">{{cat}}</a>
+                                {% endfor %}
+                            </span>
+                        </p>
+                        <p>{{ post.content | strip_html | truncatewords:30}}<a href="{{post.url}}">more</a></p>
+                        <p><i class="fa fa-tags"></i>
+                            {% for tag in post.tags %}
+                            <span class="label"> <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> </span>
+                            {% endfor %}
+                        </p>
                     </div>
                 </div>
                 {% endfor %}
