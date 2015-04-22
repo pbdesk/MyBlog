@@ -6,19 +6,86 @@
 </description>
     <link>http://blog.pbdesk.io/</link>
     <atom:link href="http://blog.pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Apr 2015 20:53:13 -0400</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2015 20:53:13 -0400</lastBuildDate>
+    <pubDate>Tue, 21 Apr 2015 22:31:11 -0400</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2015 22:31:11 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Template for creating post</title>
+        <description>&lt;!-- Entry para --&gt;
+&lt;p&gt;Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. Proin porttitor eros a ante molestie gravida commodo dui adipiscing. &lt;a href=&quot;#&quot;&gt;Morbi dictum nibh gravida&lt;/a&gt; mi pretium dapibus. Nullam in est urna. In vitae adipiscing enim. Curabitur rhoncus condimentum lorem, non convallis dolor faucibus eget. In ut nulla est. Sed a interdum mauris. Duis eget risus ac orci vulputate vestibulum sit amet id orci. Etiam ac ante at lorem ultrices elementum. Vestibulum quis elit odio, id hendrerit ipsum. Fusce consequat leo vitae velit interdum at laoreet justo ullamcorper.&lt;/p&gt;
+&lt;p&gt;Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Morbi auctor adipiscing tempor. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat. Proin rutrum, erat eget posuere semper, arcu mauris posuere tortor, in commodo enim magna id massa. Suspendisse potenti. Aliquam erat volutpat. Maecenas quis tristique turpis. Nulla facilisi. Duis sed velit at &lt;a href=&quot;#&quot;&gt;magna sollicitudin cursus&lt;/a&gt; ac ultrices magna. Aliquam consequat, purus vitae auctor ullamcorper, sem velit convallis quam, a pharetra justo nunc et mauris. Vivamus diam diam, fermentum sed dapibus eget, egestas sed eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;p&gt;Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Aliquam ut feugiat ante. Curabitur lacinia nulla vel tellus elementum non mollis justo aliquam. Maecenas turpis urna, eleifend et venenatis eget, ultricies quis urna. Aliquam fringilla mauris lectus, in laoreet justo. Aliquam ut pharetra erat. Nulla semper odio et turpis hendrerit tempor.&lt;/p&gt;
+&lt;p &gt;Recently, in Summer 2014, Microsoft announced the preview availability of its new &lt;a href=&quot;http://www.asp.net/vnext&quot; target=&quot;_blank&quot;&gt;ASP.Net vNext&lt;/a&gt;, that is MVC 6.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ASP.NET vNext is a lean and composable framework for building web and cloud applications. MVC, Web API, and Web Pages are merged into one framework, called MVC 6&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. &lt;/p&gt;
+    &lt;!-- Author information --&gt;
+    &lt;small&gt;Author&lt;/small&gt;
+&lt;/blockquote&gt;
+&lt;blockquote class=&quot;pull-right&quot;&gt;
+    &lt;p&gt;Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. &lt;/p&gt;
+    &lt;!-- Author information --&gt;
+    &lt;small&gt;Ashok&lt;/small&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;Heading H1&lt;/h1&gt;
+
+&lt;h3&gt;Heading H3&lt;/h3&gt;
+&lt;h4&gt;Heading H4&lt;/h4&gt;
+&lt;h5&gt;Heading H5&lt;/h5&gt;
+&lt;h6&gt;Heading H6&lt;/h6&gt;
+&lt;p&gt;My previous post  regarding what&#39;s new in ASP.Net MVC 6 provides more details about features and acrchituctural changes in  MVC 6.&lt;/p&gt;
+&lt;p &gt;Here are some official videos from Channel 9! giving sneak peek to ASP.Net MVC 6.&lt;/p&gt;
+&lt;h3&gt;ASP.NET Today and Tomorrow&lt;/h3&gt;
+&lt;p&gt;Keynote at &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt; by &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/Scott-Hunter&quot; target=&quot;_blank&quot;&gt;Scott Hunter&lt;/a&gt;&lt;/p&gt;
+&lt;p &gt; It&#39;s been an amazing decade for ASP.NET. Today in 2014, most all of ASP.NET is open source, developed in the open, and accepting community contributions. One ASP.NET and VS 2013 added some amazing new tooling enhancements for HTML5, CSS3 and JavaScript. VS2013.3 is coming soon with even more innovations as we march towards ASP.NET vNext. Join Scott Hunter as he shows you how it works together. What&#39;s available on ASP.NET today, and where is ASP.NET headed tomorrow, and what do you need to know to best support the code you&#39;ve written and the code you will write. We&#39;ll also talk about the rise of the cloud and how it changes the way we write large systems. All this, plus a lot of open source, and deploying to Azure.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/State-of-ASP-NET/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;ASP.NET MVC 6 (now with integrated Web API!)&lt;/h3&gt;
+&lt;p&gt;By  &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/daniel-roth&quot; target=&quot;_blank&quot;&gt;Daniel Roth&lt;/a&gt; | &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt;&lt;/p&gt;
+&lt;p &gt;ASP.NET MVC and ASP.NET Web API in ASP.NET vNext are becoming one singular framework: ASP.NET MVC 6. Join Daniel Roth as he shows how to create great ASP.NET web apps that serve both pages and services. First we&#39;ll see how to build OData v4 compliant services using ASP.NET Web API 2.2 and the new attribute routing features available in ASP.NET MVC 5.2. Then we&#39;ll take a look at how ASP.NET MVC and Web API are being combined into a single framework, ASP.NET MVC 6, for handling all of your Web UI and services. We&#39;ll learn how to use ASP.NET MVC and Web APIs in ASP.NET vNext to support connected applications for browsers, Windows Phone, Windows Store and more!&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/MVC-6/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;ASP.NET Identity&lt;/h3&gt;
+&lt;p&gt;By &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/pranav-rastogi&quot; target=&quot;_blank&quot;&gt;Pranav Rastogi&lt;/a&gt; | &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt;&lt;/p&gt;
+&lt;p &gt; ASP.NET Identity is a totally rewritten framework that brings the ASP.NET membership system into the modern era. ASP.NET Identity makes it easier to integrate different authentication systems such as local username, password as well as social logins such as Facebook, Twitter etc. It also gives you greater control over persisting data to your backend technology of choice. ASP.NET Identity is a game changer by bringing in more modern authentication systems such as Two-Factor Authentication. You can use ASP.NET Identity to secure Web Apps as well as Web APIs.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-Identity-Security/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+        <pubDate>Tue, 21 Apr 2015 12:16:08 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2015/04/post-template</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2015/04/post-template</guid>
+        
+        <category>MyProject</category>
+        
+        <category>Jekyll</category>
+        
+        <category>HTML5</category>
+        
+        
+        <category>archives</category>
+        
+      </item>
+    
+      <item>
         <title>Moving my blog to Jekyll!</title>
-        <description>&lt;p&gt;Yes I am moving my blog(blog.PBDesk.com) from WordPress to Jekyll and hosted at Github pages at http://blog.pbdesk.io&lt;/p&gt;
+        <description>&lt;p&gt;Yes I am moving my blog(blog.PBDesk.com) from WordPress to Jekyll and host it at Github pages at &lt;a href=&quot;http://blog.pbdesk.io&quot;&gt;http://blog.pbdesk.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;http://blog.pbdesk.io Preview is almost ready&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;http://blog.pbdesk.io&quot;&gt;http://blog.pbdesk.io&lt;/a&gt; Preview is almost ready&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Soon will write more about my experience on moving my blog from Wordpress to Jekyll.&lt;/p&gt;
+&lt;p&gt;One more jump for my blog. I started blogging since 2007 using Google’s blogger and to start with it was really easy and simple start. 
+And continued using it till 2013. Huh! Pretty long time. But in mean time I thought of moving it to WordPress as that was the most used 
+blogging engine and the main thing that tempted me to move to WordPress was whole world of plugins support. 
+And by end of 2013 I moved to self hosted WordPress blog at blog.PBDesk.com. But very soon I started to realize that thorns 
+always come with roses. Easily installable plugins, very soon, made my system complex and started breaking frequently due to 
+incompatible version upgrades. Moreover PHP was not my forte so making any change at code level was not that easy for me. 
+And finally being self hosted site I  have to take care of site and DB backups. Was not able to keep up with all this,&lt;br /&gt;
+and so waanted to move again to something simple.  And found &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; - from Github team.&lt;/p&gt;
+
+&lt;p&gt;Best part of Jekyll was its simplicity - everything was in files and git and no database. No worry of backups as its all in 
+git and can be hosted as Github pages free of cost so even no hosting cost. That was the coolest part. Yes there was bit of 
+learning curve for me as Jekyll is Ruby based and uses Liquid templating engine, but that was not difficult job for me - those 
+who know me very well know that I am always on learning ramp.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 20 Apr 2015 04:21:46 -0400</pubDate>
@@ -100,8 +167,6 @@
         <category>WebAPI</category>
         
         
-        <category>asp.net</category>
-        
         <category>tutorials</category>
         
       </item>
@@ -173,10 +238,6 @@
         <category>WebAPI</category>
         
         
-        <category>asp.net</category>
-        
-        <category>featured</category>
-        
         <category>programming</category>
         
       </item>
@@ -237,6 +298,22 @@
       </item>
     
       <item>
+        <title>Realm of Package Managers</title>
+        <description>Realm of Package Managers
+
+</description>
+        <pubDate>Fri, 15 Aug 2014 15:43:56 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2014/08/realm-package-managers</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2014/08/realm-package-managers</guid>
+        
+        <category>Programming</category>
+        
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
         <title>Getting started: Website in Node.JS With Express, Jade &amp; Stylus using Node.js Tools for Visual Studio</title>
         <description>&lt;p&gt;Since last few days I am trying my hands with NodeJS. I came across very nice article &quot;&lt;a href=&quot;http://clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus&quot; target=&quot;_blank&quot;&gt;A SIMPLE WEBSITE IN NODE.JS WITH EXPRESS, JADE AND STYLUS&lt;/a&gt;&quot; by Ben Gourley. Really simple and easy startup.&lt;/p&gt;
 &lt;p&gt;https://twitter.com/pbdesk/status/496729892328071170&lt;/p&gt;
@@ -285,52 +362,6 @@
         
         
         <category>featured</category>
-        
-        <category>myprojects</category>
-        
-      </item>
-    
-      <item>
-        <title>Node.JS: Tutorials &amp; Resources</title>
-        <description>&lt;p&gt;Node.JS is getting very popular now a days and i have also started enjoying this new breeze.&lt;/p&gt;
-&lt;p&gt;Here are my recent tweets regarding NodeJS.&lt;/p&gt;
-&lt;p&gt;[fetch_tweets id=&quot;16051&quot;]&lt;/p&gt;
-</description>
-        <pubDate>Sat, 05 Jul 2014 08:11:00 -0400</pubDate>
-        <link>http://blog.pbdesk.io/2014/07/nodejs-news-update</link>
-        <guid isPermaLink="true">http://blog.pbdesk.io/2014/07/nodejs-news-update</guid>
-        
-        
-        <category>nodejs</category>
-        
-      </item>
-    
-      <item>
-        <title>ReWriting PBDesk.com</title>
-        <description>&lt;p&gt;[caption id=&quot;attachment_242&quot; align=&quot;alignright&quot; width=&quot;300&quot;]&lt;a href=&quot;http://2013.PBDesk.com&quot;&gt;&lt;img class=&quot;wp-image-242 size-medium&quot; src=&quot;assets/2013-300x235.png&quot; alt=&quot;2013.PBDesk.com&quot; width=&quot;300&quot; height=&quot;235&quot; /&gt;&lt;/a&gt; 2013.PBDesk.com[/caption]&lt;/p&gt;
-&lt;p&gt;[caption id=&quot;attachment_243&quot; align=&quot;alignleft&quot; width=&quot;300&quot;]&lt;a href=&quot;http://www.PBDesk.com&quot;&gt;&lt;img class=&quot;wp-image-243 size-medium&quot; src=&quot;assets/2014-300x237.png&quot; alt=&quot;2014.PBDesk.com&quot; width=&quot;300&quot; height=&quot;237&quot; /&gt;&lt;/a&gt; 2014.PBDesk.com[/caption]&lt;/p&gt;
-&lt;p&gt;&lt;a title=&quot;PBDesk.com&quot; href=&quot;http://www.PBDesk.com&quot; target=&quot;_blank&quot;&gt;PBDesk.com&lt;/a&gt; - My Site, My Desk! Its now more then an year with same look, not sure of others ;) but i am bored of same looks. Thinking of re-writing the site!!!!&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;More then for looks, I&amp;nbsp;want to re-write so that I&amp;nbsp;can use latest in the market - ASP.Net MVC, WebAPI, Umbaco7, Twitter Bootstrap and of course AngularJS.&amp;nbsp;Yes the day I have started learning &amp;amp; using AngularJS - I am falling in love with it. Its &lt;a title=&quot;AngularJS – Really SuperHeroic JavaScipt&quot; href=&quot;/angularjs-really-superheroic-javascipt/&quot; target=&quot;_blank&quot;&gt;really SuperHeroic Javascript&lt;/a&gt;. And this is the main force driving me to re-write my site. In a way, i want to master &lt;a title=&quot;AngularJS.org&quot; href=&quot;https://angularjs.org/&quot; target=&quot;_blank&quot;&gt;AngularJS&lt;/a&gt;. Somebody rightly mentioned AngularJS as second best thing to happen to Javascript after jQuery.&lt;/p&gt;
-&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
-&lt;p&gt;https://twitter.com/pbdesk/status/469149468420755456&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Also how can I forget &lt;a title=&quot;Umbraco.Com&quot; href=&quot;http://umbraco.com/&quot; target=&quot;_blank&quot;&gt;Umbraco &lt;/a&gt;- &lt;strong&gt;My Fav!&lt;/strong&gt; &lt;a title=&quot;ASP.Net Open Source CMS&quot; href=&quot;/asp-net-open-source-cms/&quot; target=&quot;_blank&quot;&gt;ASP.Net Open Source CMS.&lt;/a&gt;&amp;nbsp;And now we have Umbraco 7 - with its backend re-written in AngularJS. Really good work by Umbraco team and great example on usage of AngularJS.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Now that thought has born in my mind it won&#39;t stop till I see it live. Wishing my self best luck for new venture. Lots of work to do - first of all find good twitter bootstrap template for responsive design. And plan out over all architecture for my new dream.&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;
-</description>
-        <pubDate>Tue, 24 Dec 2013 04:12:02 -0500</pubDate>
-        <link>http://blog.pbdesk.io/2013/12/rewriting-pbdesk-com</link>
-        <guid isPermaLink="true">http://blog.pbdesk.io/2013/12/rewriting-pbdesk-com</guid>
-        
-        <category>AngularJS</category>
-        
-        <category>MVC</category>
-        
-        <category>PBDesk</category>
-        
-        <category>Umbraco</category>
-        
-        <category>WebAPI</category>
-        
         
         <category>myprojects</category>
         
