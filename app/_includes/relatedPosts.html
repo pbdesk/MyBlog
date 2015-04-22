@@ -1,0 +1,5 @@
+<div class="row">
+{% for post in site.related_posts | limit: 4 %}
+{% include postPagelet.html %}
+{% endfor %}
+</div>
