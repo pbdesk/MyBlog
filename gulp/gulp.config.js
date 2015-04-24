@@ -7,11 +7,10 @@
         serverJS:[
             './server/**/*.js'
         ],
-        images:[
-            './app/imgs/**/*.*',
+        imagesSrc:[
             './app/img/**/*.*'
         ],
-        buildLoc: './build/'
+        imagesDest: './app/_site/img'
 
     };
 

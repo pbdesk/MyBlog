@@ -11,9 +11,9 @@
         //log('Copying and compressing the images');
 
         return GU.gulp
-            .src(GU.Configs.images)
+            .src(GU.Configs.imagesSrc)
             .pipe(GU.GP.imagemin({optimizationLevel: 4}))
-            .pipe(GU.gulp.dest(GU.Configs.buildLoc));
+            .pipe(GU.gulp.dest(GU.Configs.imagesDest));
     });
 
 
