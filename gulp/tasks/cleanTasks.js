@@ -1,7 +1,7 @@
 ;(function () {
     'use strict';
 
-    var gUtil = require('./../gulp.utils.js')();
+    var gUtil = require('./../gulp.utils.js');
 
     gUtil.gulp.task('clean-build', function() {
         gUtil.clean(gUtil.config.buildLoc);

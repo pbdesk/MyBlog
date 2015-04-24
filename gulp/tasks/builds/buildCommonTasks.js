@@ -1,7 +1,7 @@
 ;(function () {
     'use strict';
 
-    var gUtil = require('./../gulp.utils.js')();
+    var gUtil = require('./../../gulp.utils.js');
 
     /*
      gulp: gulp, // gulp object require('gulp');
@@ -10,7 +10,7 @@
      args: args
      */
 
-    gUtil.gulp.task('test-task', function () {
+    gUtil.gulp.task('test-task-dev-build', function () {
         gUtil.log('this is test task');
     });
 

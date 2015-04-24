@@ -1,4 +1,21 @@
-/* jshint -W068 */
+;(function(){
+    'use strict';
+
+    var gulp = require('gulp');
+    var GP = require('gulp-load-plugins')({lazy:true});
+
+    var configs = require('./gulp.config');
+
+    module.exports =  {
+        gulp: gulp,
+        GP: GP,
+        Configs: configs
+
+    };
+
+}());
+
+/*
 ;(function(){
     'use strict';
 
@@ -65,3 +82,4 @@
     };
 
 }());
+*/

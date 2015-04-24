@@ -2,7 +2,7 @@
 ;(function () {
     'use strict';
 
-    var gUtil = require('./../gulp.utils.js')();
+    var gUtil = require('./../gulp.utils.js');
 
     gUtil.gulp.task('codeReview', function() {
         gUtil.log('Analyzing source .JS files with JSCS & JSHint');
