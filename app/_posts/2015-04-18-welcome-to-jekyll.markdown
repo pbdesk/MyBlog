@@ -9,7 +9,7 @@ categories: jekyll
 tags:
 - Jekyll
 featured: true
-banner: /imgs/2015/04/logo-jekyll.png
+banner: /img/2015/04/logo-jekyll.png
 ---
 > This was the default post created when I created Jekyll project. Keeping this post as is to show my liking for Jekyll.
 
