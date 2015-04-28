@@ -25,4 +25,35 @@ layout: null
     </url>
     {% endif %}
     {% endfor %}
+
+    {% for tag in site.tags %}
+    <url>
+        <loc>{{ site.url }}/tag/{{tag[0]}}/index.html</loc>
+        <lastmod>{{ site.buildDate | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% endfor %}
+
+    <url>
+        <loc>{{ site.url }}/tags/index.html</loc>
+        <lastmod>{{ site.buildDate | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    {% for cat in site.categories %}
+    <url>
+        <loc>{{ site.url }}/category/{{cat[0]}}/index.html</loc>
+        <lastmod>{{ site.buildDate | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% endfor %}
+    <url>
+        <loc>{{ site.url }}/categories/index.html</loc>
+        <lastmod>{{ site.buildDate | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
