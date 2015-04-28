@@ -2,13 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pinal Bhatt&#39;s Blog</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Pinal Bhatt&#39;s Blog, Learning endeavor for ever… On this blog you&#39;ll find interesting posts, articles, tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#, Windows10, JavaScript, AngularJS, NodeJS, Social Media, Mobiles, Science &amp; Technology and other random thoughts and opinions.
 </description>
     <link>http://blog.pbdesk.io/</link>
     <atom:link href="http://blog.pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Apr 2015 22:31:11 -0400</pubDate>
-    <lastBuildDate>Tue, 21 Apr 2015 22:31:11 -0400</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2015 21:18:56 -0400</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2015 21:18:56 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Jade Video Tutorial</title>
+        <description>&lt;!-- Entry para --&gt;
+&lt;p&gt;
+    Jade - Template Engine for NodeJS. Jade is a cool, elegant, high-performance (and probably the most used) templating
+    language for Node focused on enabling quick HTML coding. It has been influenced by &lt;a href=&quot;http://haml-lang.com/&quot; target=&quot;_blank&quot;&gt;HAML&lt;/a&gt;.
+    And its the default rendering engine for the &lt;a href=&quot;http://expressjs.com/&quot; target=&quot;_blank&quot;&gt;express web framework&lt;/a&gt;.
+&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;&lt;strong&gt;
+        Official Website for Jade: &lt;a href=&quot;http://jade-lang.com/&quot; target=&quot;_blank&quot;&gt;jade-lang.com&lt;/a&gt;&lt;br/&gt;
+        Jade is maintained by &lt;a href=&quot;http://www.forbeslindesay.co.uk/&quot; target=&quot;_blank&quot;&gt;@ForbesLindesay&lt;/a&gt; and contributed by many others.
+    &lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here is a simple &amp; beautiful video tutorial series from YouTube!, on Jade covering almost all aspects of Jade. Yes this was the turorial from where I laid my Jade Fundation.&lt;/p&gt;
+&lt;h3&gt;Top Speed HTML Development With Jade&lt;/h3&gt;
+&lt;p&gt;If you’re not using Jade, you’re missing out on some of the fastest HTML you’ll ever write, as well as boilerplate templating methods that will slash your development time in half. In Top-Speed HTML Development With Jade, you’ll learn how to generate full HTML from quick and easy shorthand. You’ll then build on that foundation to create infinitely reusable templates so you never again have to write the same code twice.&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLTmBrIcSbwxmOkLieUiTHxT1uEjSg4XP0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 22 Apr 2015 17:30:08 -0400</pubDate>
+        <link>http://blog.pbdesk.io/2015/04/jade-video-tuotrial</link>
+        <guid isPermaLink="true">http://blog.pbdesk.io/2015/04/jade-video-tuotrial</guid>
+        
+        <category>Jade</category>
+        
+        <category>NodeJS</category>
+        
+        <category>Tutorial</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Template for creating post</title>
@@ -341,29 +378,6 @@ who know me very well know that I am always on learning ramp.&lt;/p&gt;
         
         
         <category>nodejs</category>
-        
-      </item>
-    
-      <item>
-        <title>Adieu PBDesk.com V2</title>
-        <description>&lt;p style=&quot;text-align: justify;&quot;&gt;Long back posted that i want to &lt;a title=&quot;ReWriting PBDesk.com&quot; href=&quot;http://blogs.pbdesk.com/rewriting-pbdesk-com/&quot; target=&quot;_blank&quot;&gt;rewrite my site &lt;/a&gt;with all new ASP.Net MVC, WebAPI, Umbaco7, AngularJS &amp;amp; Twitter Bootstrap.  It took lot of time for me to rewrite my site but finally New PBDesk.com V3 is almost ready now so its time to say good bye to existing site what I call V2.  But i have archived this old site at http://2013.PBDesk.com.[stextbox id=&quot;info&quot;]Old site archived at &lt;a title=&quot;PBDesk.com V2&quot; href=&quot;http://2013.PBDesk.com&quot; target=&quot;_blank&quot;&gt;http://2013.PBDesk.com&lt;/a&gt;.[/stextbox]&lt;/p&gt;
-&lt;p style=&quot;text-align: justify;&quot;&gt;Here are glimpse of old site.&lt;/p&gt;
-&lt;p&gt;[gallery link=&quot;none&quot; type=&quot;slideshow&quot; ids=&quot;16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022&quot;]&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;[gallery link=&quot;file&quot; ids=&quot;16019,16024,16026,16023,16025,16021,16029,16028,16027,16020,16022&quot;]&lt;/p&gt;
-&lt;p&gt;[stextbox id=&quot;info&quot;]New site now live at &lt;a title=&quot;PBDesk.com - from the desk of Pinal Bhatt&quot; href=&quot;http://www.PBDesk.com&quot; target=&quot;_blank&quot;&gt;PBDesk.com&lt;/a&gt;[/stextbox]&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 06 Aug 2014 15:07:20 -0400</pubDate>
-        <link>http://blog.pbdesk.io/2014/08/adieu-pbdesk-com-v2</link>
-        <guid isPermaLink="true">http://blog.pbdesk.io/2014/08/adieu-pbdesk-com-v2</guid>
-        
-        <category>PBDesk</category>
-        
-        
-        <category>featured</category>
-        
-        <category>myprojects</category>
         
       </item>
     
