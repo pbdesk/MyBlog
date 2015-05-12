@@ -30,6 +30,16 @@ layout: default
           {% if page.banner %}
             <p class="thumbnail"><img src="{{page.banner}}" alt="" /></p>
           {% endif %}
+          {% if page.bannerRight %}
+          <div style="float: right; padding-left: 5px; padding-bottom: 5px">
+              <img src="{{page.bannerRight}}" alt="{{page.title}}"  />
+          </div>
+          {% endif %}
+          {% if page.bannerLeft %}
+          <div style="float: right; padding-right: 5px; padding-bottom: 5px">
+              <img src="{{page.bannerLeft}}" alt="{{page.title}}"  />
+          </div>
+          {% endif %}
 
         <!-- Entry para -->
         <div class="jtxt">
