@@ -6,8 +6,8 @@ layout: default
         <!-- Content should be encloased inside div with the class "posts" -->
         <div class="posts">
             <!-- Each entry should be enclosed inside div with the class "entry" -->
-            <div class="entry">
-                <div class="padd">
+            <div class="entry" style="padding-bottom: 0;margin-bottom: -21px;">
+                <div class="padd" style="padding-bottom: 0">
                     <!-- Entry title -->
                     <h2><a href="#">You may like this</a></h2>
                     <!-- Flex Slider -->
@@ -17,14 +17,19 @@ layout: default
                             {% for post in site.posts %}
                                 {% if post.featured == true  %}
                                     <li>
-                                        <img src="{{post.banner}}" height="250px" width="500px" alt=""/>
+                                        <div  class="hpSlider">
+                                            {{ post.content | strip_html | truncatewords:30}}
+                                        </div>
                                         <p class="flex-caption"><a href="{{post.url}}">{{ post.title }}</a></p>
                                     </li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
                     </div>
-                    {% include responsiveAd.html %}
+                    <div class="visible-lg-block">
+                        {% include responsiveAd.html %}
+                    </div>
+
                 </div>
             </div>
             <!-- Features -->

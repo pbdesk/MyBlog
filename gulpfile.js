@@ -3,6 +3,8 @@
 
     var GU = require('./gulp/gulp.utils');
     var requireDir = require('require-dir')('./gulp/tasks', {recurse: true});
+    var vinylPaths = require('vinyl-paths');
+    var runSequence = require('run-sequence');
 
     GU.gulp.task('help', GU.GP.taskListing);
     GU.gulp.task('default', ['help']);
@@ -16,6 +18,11 @@
             .pipe(GU.gulp.dest(GU.Configs.imagesDest));
     });
 
+    GU.gulp.task('clean:build', function(done){
+        return GU.gulp
+            .src(GU.Configs.buildFolder)
+            .pipe(vinylPaths(GU.del));
+    })
 
 })();
 
