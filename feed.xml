@@ -6,14 +6,13 @@
 </description>
     <link>http://blog.pbdesk.io/</link>
     <atom:link href="http://blog.pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Apr 2015 21:18:56 -0400</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2015 21:18:56 -0400</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 15:16:09 -0400</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 15:16:09 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Jade Video Tutorial</title>
-        <description>&lt;!-- Entry para --&gt;
-&lt;p&gt;
+        <description>&lt;p&gt;
     Jade - Template Engine for NodeJS. Jade is a cool, elegant, high-performance (and probably the most used) templating
     language for Node focused on enabling quick HTML coding. It has been influenced by &lt;a href=&quot;http://haml-lang.com/&quot; target=&quot;_blank&quot;&gt;HAML&lt;/a&gt;.
     And its the default rendering engine for the &lt;a href=&quot;http://expressjs.com/&quot; target=&quot;_blank&quot;&gt;express web framework&lt;/a&gt;.
@@ -49,8 +48,7 @@
     
       <item>
         <title>Template for creating post</title>
-        <description>&lt;!-- Entry para --&gt;
-&lt;p&gt;Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. Proin porttitor eros a ante molestie gravida commodo dui adipiscing. &lt;a href=&quot;#&quot;&gt;Morbi dictum nibh gravida&lt;/a&gt; mi pretium dapibus. Nullam in est urna. In vitae adipiscing enim. Curabitur rhoncus condimentum lorem, non convallis dolor faucibus eget. In ut nulla est. Sed a interdum mauris. Duis eget risus ac orci vulputate vestibulum sit amet id orci. Etiam ac ante at lorem ultrices elementum. Vestibulum quis elit odio, id hendrerit ipsum. Fusce consequat leo vitae velit interdum at laoreet justo ullamcorper.&lt;/p&gt;
+        <description>&lt;p&gt;Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. Proin porttitor eros a ante molestie gravida commodo dui adipiscing. &lt;a href=&quot;#&quot;&gt;Morbi dictum nibh gravida&lt;/a&gt; mi pretium dapibus. Nullam in est urna. In vitae adipiscing enim. Curabitur rhoncus condimentum lorem, non convallis dolor faucibus eget. In ut nulla est. Sed a interdum mauris. Duis eget risus ac orci vulputate vestibulum sit amet id orci. Etiam ac ante at lorem ultrices elementum. Vestibulum quis elit odio, id hendrerit ipsum. Fusce consequat leo vitae velit interdum at laoreet justo ullamcorper.&lt;/p&gt;
 &lt;p&gt;Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Morbi auctor adipiscing tempor. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat. Proin rutrum, erat eget posuere semper, arcu mauris posuere tortor, in commodo enim magna id massa. Suspendisse potenti. Aliquam erat volutpat. Maecenas quis tristique turpis. Nulla facilisi. Duis sed velit at &lt;a href=&quot;#&quot;&gt;magna sollicitudin cursus&lt;/a&gt; ac ultrices magna. Aliquam consequat, purus vitae auctor ullamcorper, sem velit convallis quam, a pharetra justo nunc et mauris. Vivamus diam diam, fermentum sed dapibus eget, egestas sed eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
 &lt;p&gt;Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Aliquam ut feugiat ante. Curabitur lacinia nulla vel tellus elementum non mollis justo aliquam. Maecenas turpis urna, eleifend et venenatis eget, ultricies quis urna. Aliquam fringilla mauris lectus, in laoreet justo. Aliquam ut pharetra erat. Nulla semper odio et turpis hendrerit tempor.&lt;/p&gt;
 &lt;p &gt;Recently, in Summer 2014, Microsoft announced the preview availability of its new &lt;a href=&quot;http://www.asp.net/vnext&quot; target=&quot;_blank&quot;&gt;ASP.Net vNext&lt;/a&gt;, that is MVC 6.&lt;/p&gt;
@@ -86,7 +84,9 @@
 &lt;h3&gt;ASP.NET Identity&lt;/h3&gt;
 &lt;p&gt;By &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/pranav-rastogi&quot; target=&quot;_blank&quot;&gt;Pranav Rastogi&lt;/a&gt; | &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt;&lt;/p&gt;
 &lt;p &gt; ASP.NET Identity is a totally rewritten framework that brings the ASP.NET membership system into the modern era. ASP.NET Identity makes it easier to integrate different authentication systems such as local username, password as well as social logins such as Facebook, Twitter etc. It also gives you greater control over persisting data to your backend technology of choice. ASP.NET Identity is a game changer by bringing in more modern authentication systems such as Two-Factor Authentication. You can use ASP.NET Identity to secure Web Apps as well as Web APIs.&lt;/p&gt;
-&lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-Identity-Security/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+&lt;p&gt;
+    &lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-Identity-Security/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;</description>
         <pubDate>Tue, 21 Apr 2015 12:16:08 -0400</pubDate>
         <link>http://blog.pbdesk.io/2015/04/post-template</link>
         <guid isPermaLink="true">http://blog.pbdesk.io/2015/04/post-template</guid>
@@ -175,7 +175,7 @@ who know me very well know that I am always on learning ramp.&lt;/p&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;ASP.NET vNext is a lean and composable framework for building web and cloud applications. MVC, Web API, and Web Pages are merged into one framework, called MVC 6&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;My previous post  regarding what&#39;s new in ASP.Net MVC 6 provides more details about features and acrchituctural changes in  MVC 6.&lt;/p&gt;
-&lt;p&gt;[stextbox id=&quot;black&quot;]  &lt;a title=&quot;ASP.Net MVC 6 – Whats New?&quot; href=&quot;http://blog.pbdesk.com/2014/asp-net-mvc-6-whats-new/&quot; target=&quot;_blank&quot;&gt;ASP.Net MVC 6 – Whats New?&lt;/a&gt;[/stextbox]&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;&lt;a title=&quot;ASP.Net MVC 6 – Whats New?&quot; href=&quot;http://blog.pbdesk.com/2014/asp-net-mvc-6-whats-new/&quot; target=&quot;_blank&quot;&gt;ASP.Net MVC 6 – Whats New?&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;Here are some official videos from Channel 9! giving sneak peek to ASP.Net MVC 6.&lt;/p&gt;
 &lt;h3&gt;ASP.NET Today and Tomorrow&lt;/h3&gt;
 &lt;p&gt;Keynote at &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt; by &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/Scott-Hunter&quot; target=&quot;_blank&quot;&gt;Scott Hunter&lt;/a&gt;&lt;/p&gt;
@@ -189,7 +189,7 @@ who know me very well know that I am always on learning ramp.&lt;/p&gt;
 &lt;p&gt;By &lt;a href=&quot;http://channel9.msdn.com/Events/Speakers/pranav-rastogi&quot; target=&quot;_blank&quot;&gt;Pranav Rastogi&lt;/a&gt; | &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt; ASP.NET Identity is a totally rewritten framework that brings the ASP.NET membership system into the modern era. ASP.NET Identity makes it easier to integrate different authentication systems such as local username, password as well as social logins such as Facebook, Twitter etc. It also gives you greater control over persisting data to your backend technology of choice. ASP.NET Identity is a game changer by bringing in more modern authentication systems such as Two-Factor Authentication. You can use ASP.NET Identity to secure Web Apps as well as Web APIs.&lt;/p&gt;
 &lt;p&gt;&lt;iframe width=&quot;300&quot; height=&quot;150&quot; style=&quot;height: 340px; width: 605px;&quot; src=&quot;//channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-Identity-Security/player?h=340&amp;amp;w=605&amp;amp;format=html5&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;[stextbox id=&quot;black&quot;]More videos about &lt;a href=&quot;http://www.dotnetconf.net/&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt; can be found on &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;Channel 9&lt;/a&gt;.[/stextbox]&lt;/p&gt;
+&lt;p&gt;&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;More videos about &lt;a href=&quot;http://www.dotnetconf.net/&quot; target=&quot;_blank&quot;&gt;dotnetConf 2014&lt;/a&gt; can be found on &lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf&quot; target=&quot;_blank&quot;&gt;Channel 9&lt;/a&gt;.&lt;/div&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Nov 2014 11:16:08 -0500</pubDate>
         <link>http://blog.pbdesk.io/2014/11/asp-net-vnext-mvc-6-videos</link>
