@@ -15,6 +15,9 @@
         ],
         appFolder: appFolder,
         buildFolder: buildFolder,
+        htmlFiles: [
+            appFolder + '_site/**/*.html'
+        ],
         imagesDest: './app/_site/img',
         cssBuildFolder: buildFolder + 'css/',
         cssFiles: [
