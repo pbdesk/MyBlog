@@ -3,3 +3,4 @@ _site/
 .idea/workspace.xml
 MyBlog.iws
 node_modules
+app/build
