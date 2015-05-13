@@ -3,7 +3,7 @@
 
     var appFolder = './app/';
     var buildFolder = appFolder + 'build/';
-    var currentTheme = 'green'; // red blue
+    var currentTheme = 'red'; // red blue green
 
 
     module.exports =  {
